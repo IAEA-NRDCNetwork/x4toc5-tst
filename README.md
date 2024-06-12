@@ -10,7 +10,7 @@ Translation of experimental data from the EXFOR format to the computation format
 - [src](src) - Java source codes and EXFOR Dictionaries
 - [doc](doc) - documentation: general and format description, user's guide
 - [bin](bin) - binaries: Java archive JAR-file with compiled program and Dictionaries in it
-- [tests](tests) - test data, scripts, plotting (python with Plotly)
+- [tests](tests) - test data, scripts, plotting (Python with Plotly)
 - [tests-result](tests-result) - results of tests for comparison by end-user
 
 ## Links
