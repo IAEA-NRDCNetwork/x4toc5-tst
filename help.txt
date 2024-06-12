@@ -1,0 +1,36 @@
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+
+ Run:  $ java [flags] x4toc5 file.x4 [options]
+
+ Options:
+   -o:file     output file, default: file.x4.c5
+   -dict:dir   directory with EXFOR Dictionaries, default: -dict:x4dict/
+   -dlvl:dir   directory with levels,             default: -dlvl:levels/
+   -split:dir  output C5 file for every Entry to a file in directory: 1/123/12345.c5
+   -c5         output format: C5 (default)
+   -c5m        output format: C5M (C5+correlation matrix)
+   -c4         output format: C4
+   -i          recalculate data to inverse reactions, e.g.:
+                  6-C-13(A,N)8-O-16,,SIG --> 8-O-16(N,A)6-C-13,,SIG
+                  2-HE-4(P,D)2-HE-3,,DA  --> 2-HE-3(D,P)2-HE-4,,DA
+   -i:file     inverse data for the reactions listed in the file
+   -cm2lab     convert EN-CM, ANG-CM, DATA-CM from C.M. to Lab. (MF4 only)
+   -norr       do not convert DATA: Rutherford-Ratio to B/SR
+   -noqe       do not replace Q-Value by E-Level for partial XS
+   -mt51       replace MT by MT+iLevel (for MT:51,601,651,701,751,801)
+   -nomt0      do not process Datasets with unknown MT
+   -sort       sort data by independent variables (EN, AN, E2)
+   -h[elp]     print this text
+   -ps         show process
+   -debug      set debug mode
+ Java flags:
+   -Xmx<size>  set maximum Java heap size
+   -cp <paths> list of directories, JAR archives to search for class files
+   -jar <path> file with binaries (archive of classes - compiled java codes)
+
+ Examples:
+   $ java x4toc5 myfile.x4
+   $ java x4toc5 x4.x4 -dict:x4dict/
+   $ java -Xmx400M -jar x4toc5.jar x4.x4 -i -o:x4.x4.c5i

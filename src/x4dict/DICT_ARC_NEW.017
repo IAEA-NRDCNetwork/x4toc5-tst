@@ -1,0 +1,15 @@
+ TRA 198202 A                              Reference with which data agree                                                 
+ TRA 198202 C                              Critical remarks                                                                
+ TRA 198202 D                              Reference with which data disagree                                              
+ TRA 198202 E                              Reference used in the evaluation                                                
+ TRA 201105 I                              Reference to experimental instruments                                           
+ TRA                                        General description of facility, detector etc.                                 
+ TRA 201105 M                              Reference to experimental technique                                             
+ TRA                                        General description of method, analysis etc.                                   
+ TRA 198307 N                              -                                                                               
+ TRA                                        Used whenever other codes do not apply.                                        
+ TRA                                        Explanation in free text is obligatory.                                        
+ TRA 201112 O                              Reference to related data compiled in another entry                             
+ TRA 198202 R                              Reference from which data were used                                             
+ TRA                                        Do not use this code for references coded under                                
+ TRA                                         MONIT-REF                                                                     

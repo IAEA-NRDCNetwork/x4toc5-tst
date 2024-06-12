@@ -1,0 +1,27 @@
+ TRA 200406 CS                             Cross section data                                                              
+ TRA 200406 CSP                            Partial cross section data                                                      
+ TRA 200406 CST                            Temperature dependent cross section data                                        
+ TRA 200406 DA                             Differential data with respect to angle                                         
+ TRA 200406 DAE                            Differential data with respect to angle and energy                              
+ TRA 200406 DAP                            Partial differential data with respect to angle                                 
+ TRA 200406 DE                             Differential data with respect to energy                                        
+ TRA 200406 DEP                            Partial differential data with respect to energy                                
+ TRA 200406 E                              Kinetic energies                                                                
+ TRA 200406 FY                             Fission product yields                                                          
+ TRA 200406 INT                            Cross section integral over incident energy                                     
+ TRA 202106 L                              Scattering length                                                               
+ TRA 201912 MFQ                            Differential fission neutron multiplicities                                     
+ TRA 200406 MLT                            Outgoing particle multiplicities                                                
+ TRA 200406 NQ                             Nuclear quantities                                                              
+ TRA 201912 NU                             Fission neutron multiplicities                                                  
+ TRA 200406 POL                            Polarization data                                                               
+ TRA 200406 PY                             Product yields                                                                  
+ TRA 200406 RI                             Resonance integrals                                                             
+ TRA 200406 RP                             Resonance parameters                                                            
+ TRA 200406 RR                             Reaction rates                                                                  
+ TRA 200406 SP                             Gamma spectra                                                                   
+ TRA 200406 SQ                             Special quantities                                                              
+ TRA 200406 TT                             Thick target yields                                                             
+ TRA 200406 TTD                            Differential thick target yields                                                
+ TRA 200406 TTP                            Partial thick target yields                                                     
+ TRA 201912 ZAP                            Most probable charge or mass                                                    

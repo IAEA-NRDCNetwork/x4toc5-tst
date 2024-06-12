@@ -1,0 +1,41 @@
+  1 System identifiers              1 A20,I09                                                                              
+  2 Information identifiers         1 A20,A25,A01,I02,A01,I03                                                              
+  3 Institutes                      2 A17,A03,A01,A03,A53,A15                                                              
+  4 Reference types                 1 A11,A04,A03,A35                                                                      
+  5 Journals                        2 A16,A04,A04,A04,A20,A48                                                              
+  6 Reports                         1 A21,A07,A48,A01                                                                      
+  7 Conferences                     1 A20,A53,A04,A04,A10                                                                  
+  8 Elements                        2 A13,A02,A20                                                                          
+ 15 History                         1 A11,A15,A45                                                                          
+ 16 Status                          1 A15,I05,A55,A01                                                                      
+ 17 Related reference types         1 A11,A53                                                                              
+ 18 Facilities                      1 A15,A53,A04                                                                          
+ 19 Incident sources                1 A15,A53,A04,A01                                                                      
+ 20 Additional results              1 A15,A53                                                                              
+ 21 Methods                         1 A15,A53,A04                                                                          
+ 22 Detectors                       1 A15,A53,A04                                                                          
+ 23 Analyses                        1 A15,A53,A04                                                                          
+ 24 Data headings                   1 A20,I01,I01,A01,I07,A04,A01,A55                                                      
+ 25 Data units                      1 A20,A35,A04,E11                                                                      
+ 26 Unit families                   1 A14,I02,I02,I02,A50                                                                  
+ 30 Processes (REACTION SF 3)       1 A13,I10,A55,A04                                                                      
+ 31 Branches (REACTION SF 5)        1 A15,I10,A55,A04                                                                      
+ 32 Parameters (REACTION SF 6)      1 A13,I10,A55,A04                                                                      
+ 33 Particles                       1 A16,I06,I05,A04,A40                                                                  
+ 34 Modifiers (REACTION SF 8)       1 A15,I10,A05,A55,A04                                                                  
+ 35 Data types (REACTION SF 9)      1 A15,I10,A40                                                                          
+ 37 Results                         1 A15,A53                                                                              
+ 38 Supplemental information        1 A15,A53                                                                              
+ 43 NLIB for evaluated libraries    1 A12,A40                                                                              
+ 45 New CINDA quantities            1 A15,A07,A53                                                                          
+ 47 Old / New CINDA quantities      1 A15,A10,A04                                                                          
+ 48 Alphabetic energy values        1 A15,A10,A58                                                                          
+ 52 CINDA readers                   1 A15,A60,A15                                                                          
+113 Web quantities                  1 A15,A53                                                                              
+144 Data libraries                  1 A23,A04,A04,A55                                                                      
+207 Books                           1 A20,A53,A04,A04,A10                                                                  
+209 Chemical compounds              3 A20,A05,I06,A13,E05,E11,A25                                                          
+213 Reaction types                  1 A14,A05,A04,A13,A55                                                                  
+227 Nuclides and nat.isot.mixtures  2 A12,A06,I07,A01,A06,A01,E11,A03,E11,E12,A21                                          
+235 Work types                      1 A11,A06,A20                                                                          
+236 Quantities (REACTION SF 5-8)    1 A30,A03,A01,A04,A01,A71                                                              

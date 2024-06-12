@@ -1,0 +1,41 @@
+ TRA 198303 ADD-RES                        Additional results        36O 20                                                
+ TRA 198202 ANALYSIS                       Analysis                 B13O 23                                                
+ TRA 202106 ANG-SEC                        Secondary angle           25O                                                   
+ TRA 198202 ASSUMED                        Assumed values            32R                                                   
+ TRA 198202 AUTHOR                         Author                   R 2R                                                   
+ TRA 198503 COMMENT                        Comment                   40                                                    
+ TRA 198202 CORRECTION                     Corrections               20                                                    
+ TRA 198503 COVARIANCE                     Covariance                22                                                    
+ TRA 198503 CRITIQUE                       Critique                  44                                                    
+ TRA 198307 DECAY-DATA                     Decay data                33R                                                   
+ TRA 198202 DECAY-MON                      Standard decay data       34R                                                   
+ TRA 198202 DETECTOR                       Detector                 B12O 22                                                
+ OBS 200902 EMS-SEC                        Secondary effective mass  19O                                                   
+ TRA 198307 EN-SEC                         Secondary energy          18O                                                   
+ TRA 198202 ERR-ANALYS                     Error analysis           X21O                                                   
+ TRA 198202 EXP-YEAR                       Experiment year            4R                                                   
+ TRA 198202 FACILITY                       Facility                 B11O 18                                                
+ TRA 198507 FLAG                           Flag                      42R                                                   
+ TRA 198202 HALF-LIFE                      Half-life                 23O                                                   
+ TRA 198202 HISTORY                        History                  R28R 15                                                
+ TRA 200902 INC-SOURCE                     Incident particle source  14O 19                                                
+ TRA 198202 INC-SPECT                      Incident spectrum         15                                                    
+ TRA 198202 INSTITUTE                      Institute                R 3R  3                                                
+ TRA 200509 LEVEL-PROP                     Level properties          45R                                                   
+ TRA 198202 METHOD                         Method                   B10O 21                                                
+ TRA 200902 MISC-COL                       Miscellaneous columns     24R                                                   
+ TRA 200902 MOM-SEC                        Secondary linear momentum 17O                                                   
+ TRA 198202 MONIT-REF                      Standard reference        37R                                                   
+ TRA 198202 MONITOR                        Standard                  31R                                                   
+ OBS 200902 N-SOURCE                       Incident particle source  14O                                                   
+ TRA 198202 PART-DET                       Particle detected         29O 33                                                
+ TRA 198202 RAD-DET                        Radiation detected        35R 33                                                
+ TRA 200607 REACTION                       Quantity given           R30R                                                   
+ TRA 198202 REFERENCE                      Reference                R 5R  4                                                
+ TRA 198307 REL-REF                        Related reference         38R                                                   
+ TRA 199003 RESULT                         Result                    39R 37                                                
+ TRA 198202 SAMPLE                         Sample                    16                                                    
+ OBS 198307 STANDARD                       Standard                   9R                                                   
+ TRA 199003 STATUS                         Status                   R27O 16                                                
+ TRA 201906 SUPPL-INF                      Supplemental information  41R 38                                                
+ TRA 198202 TITLE                          Title                    X 1                                                    

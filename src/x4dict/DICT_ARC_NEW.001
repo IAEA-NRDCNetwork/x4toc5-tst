@@ -1,0 +1,56 @@
+ INT 198211 ARCHIVE                               24 First record of an archive file.                                      
+ TRA 198202 BIB                                    9 First record of each BIB section.                                     
+ TRA                                        N1=number of keywords in the BIB section, disregarding                         
+ TRA                                           pointers in col.11                                                          
+ TRA                                        N2=number of records in the BIB section                                        
+ TRA 198202 COMMON                                12 First record of each common data section.                             
+ TRA                                        N1=number of common data fields                                                
+ TRA                                        N2=number of records in COMMON section                                         
+ TRA 198202 DATA                                  15 First record of each DATA section.                                    
+ TRA                                        N1=number of data fields                                                       
+ TRA                                        N2=number of data lines in the table excluding                                 
+ TRA                                           headings and units (if N1 is greater than 6 a                               
+ TRA                                           data line consists of two or more records)                                  
+ INT 199406 DICTION                                   First record of a dictionary.                                        
+ INT                                        N1=dictionary number                                                           
+ INT                                        N2=date of last update (yyyymmdd)                                              
+ INT 198211 ENDARCHIVE                            25 Last record of an archive file.                                       
+ TRA 198202 ENDBIB                                11 Last record of each BIB section.                                      
+ TRA                                        N1=number of records in BIB section                                            
+ TRA 198202 ENDCOMMON                             14 Last record of common data section.                                   
+ TRA                                        N1=number of records in common data section                                    
+ TRA 198202 ENDDATA                               17 Last record of DATA section.                                          
+ TRA                                        N1=number of records in DATA section                                           
+ INT 199406 ENDDICTION                                Last record of a dictionary.                                         
+ INT                                        N1=number of records in dictionary                                             
+ TRA 198202 ENDENTRY                               5 Last record of each work (accession number).                          
+ TRA                                        N1=number of sub-works in entry                                                
+ INT 198211 ENDLIB                                19 Last record of a library file.                                        
+ INT 198211 ENDREQUEST                            23 Last record of a request file.                                        
+ TRA 198202 ENDSUBENT                              8 Last record of each sub-work.                                         
+ TRA                                        N1=number of records within the subwork                                        
+ TRA 198202 ENDTRANS                               2 Last record on transmission file.                                     
+ TRA                                        N1=number of works on the transmission file                                    
+ TRA                                        N2=number of dictionaries in dictionary transmission                           
+ TRA                                           file                                                                        
+ TRA 198202 ENTRY                                  3 First record of each work (accession number).                         
+ TRA                                        N1=5-digit accession number                                                    
+ TRA                                        N2=date of entry on file or last update (yyyymmdd)                             
+ INT 198211 LIB                                   18 First record of a library file.                                       
+ TRA 198202 NOBIB                                 10 Used when there is no BIB information in a sub-work.                  
+ TRA 198502 NOCOMMON                              13 Used when there is no common data in a sub-work.                      
+ TRA 198502 NODATA                                16 Used when there is no data in a sub-work.                             
+ INT 198307 NOENTRY                                4 Used to delete entries from the CSISRS data library.                  
+ TRA 198202 NOSUBENT                               7 Indicates subentry assigned, but empty.                               
+ TRA                                        Either deleted or included in another subentry.                                
+ TRA                                        N1=sub-accession number                                                        
+ INT 198211 REQUEST                               22 First record of a request file.                                       
+ TRA 198202 SUBENT                                 6 First record of each sub-work.                                        
+ TRA                                        N1=8-digit sub-accession number                                                
+ TRA                                        N2=date of entry on file or last update (yyyymmdd)                             
+ TRA                                        N3=special use for identifying data types                                      
+ TRA                                        N4,N5=may contain center internal information                                  
+ TRA 198202 TRANS                                  1 First record on a transmission file.                                  
+ TRA                                        N1=transmission tape no. (center-id*1000 + seq.num)                            
+ TRA                                        N2=date of transmission tape generation (yyyymmdd).                            
+ TRA                                        N3=may contain a library name.                                                 

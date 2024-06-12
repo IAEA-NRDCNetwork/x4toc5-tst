@@ -1,0 +1,54 @@
+ TRA 200406 ABS                            N,ABS     CS                                                                    
+ TRA 200406 AEM                            N,X+A                                                                           
+ TRA 200406 ALF                            N,ABS     ALF                                                                   
+ TRA 200607 CHG                            N,F       CHG  *                                                                
+ TRA 200406 DEL                            N,EL      DA                                                                    
+ TRA 200406 DEM                            N,X+D                                                                           
+ TRA 200406 DIN                            N,INL                                                                           
+ TRA 200406 DNG                            N,INL+G                                                                         
+ TRA 200406 ETA                            N,ABS     ETA                                                                   
+ TRA 200406 EVL                            N,X       EVL                                                                   
+ TRA 200607 FPB                            N,F            *                                                                
+ TRA 200607 FPG                            N,F            *                                                                
+ TRA 200607 FRS                            N,F            *                                                                
+ TRA 200406 GF                             G,F                                                                             
+ TRA 200406 GN                             G,N                                                                             
+ TRA 200406 LDL                            0,0       NQ                                                                    
+ TRA 200406 N2N                            N,2N                                                                            
+ TRA 200406 NA                             N,A                                                                             
+ TRA 200406 ND                             N,D                                                                             
+ TRA 200406 NEG                            N,X+G                                                                           
+ TRA 200406 NEM                            N,X+N                                                                           
+ TRA 200406 NF                             N,F       CS                                                                    
+ TRA 200406 NFY                            N,F       FY   *                                                                
+ TRA 200406 NG                             N,G                                                                             
+ TRA 200406 NHE                            N,HE3                                                                           
+ TRA 200406 NNA                            N,N+A                                                                           
+ TRA 200406 NND                            N,N+D                                                                           
+ TRA 200406 NNP                            N,N+P                                                                           
+ TRA 200406 NNT                            N,N+T                                                                           
+ TRA 200406 NP                             N,P                                                                             
+ TRA 200406 NT                             N,T                                                                             
+ TRA 202306 NU                             N,F       NU   *                                                                
+ TRA 200406 NUD                            N,F       NUD  *                                                                
+ TRA 200503 NUF                            N,F       NUF  *                                                                
+ TRA 200406 NX                             N,X                                                                             
+ TRA 200406 NXN                            N,XN                                                                            
+ TRA 200406 PEM                            N,X+P                                                                           
+ TRA 200406 POL                            N,X       POL                                                                   
+ TRA 200611 POT                            N,EL      POT                                                                   
+ TRA 200406 RES                            N,0       RP                                                                    
+ TRA 200406 RIA                            N,ABS     RI                                                                    
+ TRA 200406 RIF                            N,F       RI                                                                    
+ TRA 200406 RIG                            N,G       RI                                                                    
+ TRA 200406 SCT                            N,SCT                                                                           
+ TRA 200406 SEL                            N,EL      CS                                                                    
+ TRA 200406 SFG                            N,F       SPC  *                                                                
+ TRA 200607 SFN                            N,F            *                                                                
+ TRA 200406 SIN                            N,INL     CS                                                                    
+ TRA 200406 SNE                            N,NON     CS                                                                    
+ TRA 200406 SNG                            N,G                                                                             
+ TRA 200406 STF                            N,0       RP                                                                    
+ TRA 200406 TEM                            N,X+T                                                                           
+ TRA 200406 TOT                            N,TOT     CS                                                                    
+ TRA 200406 TSL                            N,THS     TSL                                                                   

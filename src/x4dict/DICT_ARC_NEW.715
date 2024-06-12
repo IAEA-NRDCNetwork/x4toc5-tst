@@ -1,0 +1,779 @@
+# MF   MT   LR   SF2      SF3      SF4      SF5      SF6      SF7          Reaction String Sample, comment
+  1   452        Z        F                 blank    NU                    (Z,F)*,,NU
+  1   455        Z        F                 DL       NU
+  1   456        Z        F                 PR       NU
+  1   458        Z        F                          AKE      FF
+  1   458        Z        F                 blank    DE       FF
+  1   458        Z        F                 blank    KE       FF
+  1   458        Z        F                 blank    DE       N
+  1   458        Z        F                 PR       AKE      N
+  1   458        Z        F                 blank    DE       G
+           
+  2   151        Z        0                          EN                    (Z,0)*,*,EN
+  2   151        Z        0                          J
+  2   151        Z        0                          L
+  2   151        Z        0                          PTY
+  2   151        Z        0                          D
+  2   151        0        0                          LDP      blank
+  2   151        Z                                   SCO      blank
+  2   151        0        0                          TEM      blank
+  2   151        N        EL                         WID
+  2   151        N        EL                         WID/RED
+  2   151        Z                                   WID/STR  blank
+  2   151        N        EL                         STF
+  2   151        Z        G                          WID
+  2   151        Z        G                          ARE
+  2   151        Z        F                          WID
+  2   151        Z        TOT                        WID
+  2   151        Z                                   PHS      blank
+           
+  3     1   0    N        TOT                        SIG                   (N,TOT)*,*,SIG
+  3     2   0    Z        EL                         SIG           
+  3     3   0    Z        NON                        SIG           
+  3     4   0    N        INL               blank    SIG      blank
+  3     4   0    Z-N      N                 blank    SIG      blank
+  3    11   0    Z        2N+D                       SIG      blank        (Z,2N+2D)*,*,SIG,,
+  3    11   0    Z        D+2N                       SIG      blank
+  3    16   0    Z        2N                blank    SIG      blank
+  3    16   0    Z-N      2N                IND      SIG      blank
+  3    17   0    Z        3N                blank    SIG      blank
+  3    17   0    Z-N      3N                IND      SIG      blank
+  3    18   0    Z        F                          SIG      blank
+# 3    19                                                          
+# 3    20                 no
+# 3    21                 no
+  3    22   0    Z        A+N                        SIG      blank
+  3    22   0    Z        N+A                        SIG      blank
+  3    23   0    Z        N+3A                       SIG      blank
+  3    23   0    Z        3A+N                       SIG      blank
+  3    24   0    Z        2N+A                       SIG      blank
+  3    24   0    Z        A+2N                       SIG      blank
+  3    25   0    Z        3N+A                       SIG      blank
+  3    25   0    Z        A+3N                       SIG      blank
+  3    27   0    Z        ABS                        SIG      blank
+  3    28   0    Z        N+P                        SIG      blank
+  3    28   0    Z        P+N                        SIG      blank
+  3    29   0    Z        N+2A                       SIG      blank
+  3    29   0    Z        2A+N                       SIG      blank
+  3    30   0    Z        2N+2A                      SIG      blank
+  3    30   0    Z        2A+2N                      SIG      blank
+  3    32   0    Z        N+D                        SIG      blank
+  3    32   0    Z        D+N                        SIG      blank
+  3    33   0    Z        N+T                        SIG      blank
+  3    33   0    Z        T+N                        SIG      blank
+  3    34   0    Z        N+HE3                      SIG      blank
+  3    34   0    Z        HE3+N                      SIG      blank
+  3    35   0    Z        N+D+2A                     SIG      blank
+  3    35   0    Z        N+2A+D                     SIG      blank
+  3    35   0    Z        D+N+2A                     SIG      blank
+  3    35   0    Z        D+2A+N                     SIG      blank
+  3    35   0    Z        2A+N+D                     SIG      blank
+  3    35   0    Z        2A+D+N                     SIG      blank
+  3    36   0    Z        N+T+2A                     SIG      blank
+  3    36   0    Z        N+2A+T                     SIG      blank
+  3    36   0    Z        2A+N+T                     SIG      blank
+  3    36   0    Z        2A+T+N                     SIG      blank
+  3    36   0    Z        T+2A+N                     SIG      blank
+  3    36   0    Z        T+N+2A                     SIG      blank
+  3    37   0    Z        4N                         SIG      blank
+#v  3    38                 no
+  3    41   0    Z        2N+P                       SIG      blank
+  3    41   0    Z        P+2N                       SIG      blank
+  3    42   0    Z        3N+P                       SIG      blank
+  3    42   0    Z        P+3N                       SIG      blank
+  3    44   0    Z        N+2P                       SIG      blank
+  3    44   0    Z        2P+N                       SIG      blank
+  3    45   0    Z        N+P+A                      SIG      blank
+  3    45   0    Z        P+N+A                      SIG      blank
+  3    45   0    Z        N+A+P                      SIG      blank
+  3    45   0    Z        P+A+N                      SIG      blank
+  3    45   0    Z        A+N+P                      SIG      blank
+  3    45   0    Z        A+P+N                      SIG      blank
+# 3    50   0    Z-N      N                 PAR      SIG      blank
+  3    51   0    Z-N      N                 PAR      SIG      blank        FSN for determination of N-LEV
+# -        
+# 3    91   0    Z-N      N                 PAR      SIG      blank        (Y,N)*,PAR,SIG,,
+  3    51   0    N        INL               PAR      SIG      blank        FSN for determination of N-LEV
+# -        
+# 3    91   0    N        INL               PAR      SIG      blank
+  3    51  22    Z        N+A               SEQ      SIG      blank
+# -        
+# 3    91  22    Z        N+A               SEQ      SIG      blank
+  3    51  23    Z        N+3A              SEQ      SIG      blank
+# -        
+# 3    91  23    Z        N+3A              SEQ      SIG      blank
+  3    51  24    Z        2N+A              SEQ      SIG      blank
+# -        
+# 3    91  24    Z        2N+A              SEQ      SIG      blank
+  3    51  25    Z        3N+A              SEQ      SIG      blank
+# -        
+# 3    91  25    Z        3N+A              SEQ      SIG      blank
+  3    51  28    Z        N+P               SEQ      SIG      blank
+# -        
+# 3    91  28    Z        N+P               SEQ      SIG      blank
+  3    51  29    Z        N+2A              SEQ      SIG      blank
+# -        
+# 3    91  29    Z        N+2A              SEQ      SIG      blank
+  3    51  30    Z        2N+2A             SEQ      SIG      blank
+# -        
+# 3    91  30    Z        2N+2A             SEQ      SIG      blank
+  3    51  32    Z        N+D               SEQ      SIG      blank
+# -        
+# 3    91  32    Z        N+D               SEQ      SIG      blank
+  3    51  33    Z        N+T               SEQ      SIG      blank
+# -        
+# 3    91  33    Z        N+T               SEQ      SIG      blank
+  3    51  34    Z        N+HE3             SEQ      SIG      blank
+# -        
+# 3    91  34    Z        N+HE3             SEQ      SIG      blank
+  3    51  35    Z        N+D+2A            SEQ      SIG      blank
+# -        
+# 3    91  35    Z        N+D+2A            SEQ      SIG      blank
+  3    51  36    Z        N+T+2A            SEQ      SIG      blank
+# -        
+# 3    91  36    Z        N+T+2A            SEQ      SIG      blank
+#v  3    51  39    Z        NO
+# -        
+# 3    91  39    Z        NO
+#v  3    51  40    Z        NO
+# -        
+# 3    91  40    Z        NO
+#v  3   101   0    Z        NO
+  3   102   0    Z        G                 blank    SIG           
+  3   103   0    Z        P                 blank    SIG      blank        (Z,P)*,,SIG,,
+  3   103   0    Z        P                 IND      SIG      blank
+  3   103   0    Z        P                 CN       SIG      blank
+  3   103   0    Z        P                 DI       SIG      blank
+  3   103   0    P        INL               blank    SIG      blank
+  3   104   0    Z        D                          SIG      blank
+  3   104   0    D        INL               blank    SIG      blank
+  3   105   0    Z        T                          SIG      blank
+  3   105   0    T        INL               blank    SIG      blank
+  3   106   0    Z        HE3                        SIG      blank
+  3   106   0    HE3      INL               blank    SIG      blank
+  3   107   0    Z        A                 blank    SIG      blank
+  3   107   0    Z        A                 IND      SIG      blank
+  3   107   0    Z        A                 CN       SIG      blank
+  3   107   0    Z        A                 DI       SIG      blank
+  3   107   0    A        INL               blank    SIG      blank
+  3   108   0    Z        2A                         SIG      blank
+  3   109   0    Z        3A                         SIG      blank
+  3   111   0    Z        2P                         SIG      blank
+  3   112   0    Z        P+A                        SIG      blank
+  3   112   0    Z        A+P                        SIG      blank
+  3   113   0    Z        T+2A                       SIG      blank
+  3   113   0    Z        2A+T                       SIG      blank
+  3   114   0    Z        D+2A                       SIG      blank
+  3   114   0    Z        2A+D                       SIG      blank
+  3   115   0    Z        P+D                        SIG      blank
+  3   115   0    Z        D+P                        SIG      blank
+  3   116   0    Z        P+T                        SIG      blank
+  3   116   0    Z        T+P                        SIG      blank
+  3   117   0    Z        D+A                        SIG      blank
+  3   117   0    Z        A+D                        SIG      blank
+  3   201   0    Z        X        0-NN-1   blank    SIG      blank
+  3   201   0    Z        X        0-NN-1   IND      SIG      blank
+  3   202   0    Z        X        0-G-0    blank    SIG      blank
+  3   202   0    Z        X        0-G-0    IND      SIG      blank
+  3   203   0    Z        X        1-H-1    blank    SIG      blank
+  3   203   0    Z        X        1-H-1    IND      SIG      blank
+  3   204   0    Z        X        1-H-2    blank    SIG      blank
+  3   204   0    Z        X        1-H-2    IND      SIG      blank
+  3   205   0    Z        X        1-H-3    blank    SIG      blank
+  3   205   0    Z        X        1-H-3    IND      SIG      blank
+  3   206   0    Z        X        2-HE-3   blank    SIG      blank
+  3   206   0    Z        X        2-HE-3   IND      SIG      blank
+  3   207   0    Z        X        2-HE-4   blank    SIG      blank        (Z,X)2-HE-4,,SIG,,
+  3   207   0    Z        X        2-HE-4   IND      SIG      blank
+  3   208        Z        PIP                        SIG           
+  3   208        Z        PIP+X                      SIG           
+  3   209        Z        PI0                        SIG           
+  3   209        Z        PI0+X                      SIG           
+  3   210        Z        PIN                        SIG           
+  3   210        Z        PIN+X                      SIG           
+# 3   211        no
+# 3   212        no
+# 3   213        no
+# 3   214        no
+# 3   215        no
+# 3   216        no
+# 3   217        no
+# 3   218        no
+  3   600        Z-P      P                 PAR      SIG
+  3   601   0    Z        P                 PAR      SIG
+# -        
+# 3   649   0    Z        P                 PAR      SIG
+  3   650   0    Z-D      D                 PAR      SIG
+# 3   651   0    Z        D                 PAR      SIG
+# -        
+  3   699   0    Z        D                 PAR      SIG
+  3   700   0    Z-T      T                 PAR      SIG
+  3   701   0    Z        T                 PAR      SIG
+# -        
+# 3   749   0    Z        T                 PAR      SIG
+  3   750   0    Z-HE3    HE3               PAR      SIG
+  3   751   0    Z        HE3               PAR      SIG
+# -        
+# 3   799   0    Z        HE3               PAR      SIG
+  3   800   0    Z-A      A                 PAR      SIG
+  3   801   0    Z        A                 PAR      SIG
+# -        
+# 3   849   0    Z        A                 PAR      SIG
+           
+# 3   875                                                                  is used only in Be-9+n JEF-3 (n,n1)+n+a+a, FSN
+# 3   876                                                                  is used only in Be-9+n JEF-3 (n,n2)+n+a+a, FSN
+# 3   877                                                                  is used only in Be-9+n JEF-3 (n,n3)+n+a+a, FSN
+# 3   878                                                                  is used only in Be-9+n JEF-3 (n,n4)+n+a+a, FSN
+# 3   879                                                                  is used only in Be-9+n JEF-3 (n,n5)+n+a+a, FSN
+# 3   880                                                                  is used only in Be-9+n JEF-3 (n,n6)+n+a+a, FSN
+# 3   881                                                                  is used only in Be-9+n JEF-3 (n,n7)+n+a+a, FSN
+# 3   882                                                                  is used only in Be-9+n JEF-3 (n,n8)+n+a+a, FSN
+# 3   883                                                                  is used only in Be-9+n JEF-3 (n,n9)+n+a+a, FSN
+# 3   884                                                                  is used only in Be-9+n JEF-3 (n,n10)+n+a+a, FSN
+# 3   885                                                                  is used only in Be-9+n JEF-3 (n,n11)+n+a+a, FSN
+# 3   886                                                                  is used only in Be-9+n JEF-3 (n,a1)+n+n+a, FSN
+# 3   887                                                                  is used only in Be-9+n JEF-3 (n,a2)+n+n+a, FSN
+# 3   888                                                                  is used only in Be-9+n JEF-3 (n,(n+a))+n+a, FSN
+# 3   889                                                                  is used only in Be-9+n JEF-3 (n,(n+n+(a+a))), FSN
+# 3   890                                                                  is used only in Be-9+n JEF-3 (n,(n+a+(n_a))), FSN
+           
+  4     2        Z        EL                         DA                    it is ratio to Reserford CS for charged particle
+  4     4        N        INL                        DA                    MF=4 is only for incident neutrons
+# 4    10        N        INL                PAR     DA       blank
+  4    16        N        2N                         DA
+  4    16        N        2N                 PAR     DA       blank
+  4    17        N        3N                         DA
+  4    17        N        3N                 PAR     DA       blank
+  4    22        N        N+A                        DA       N
+  4    28        N        N+P                        DA       N
+  4    37        N        4N                         DA
+  4    37        N        4N                 PAR     DA       blank
+  4    51        Z        INL                PAR     DA       blank        FSN
+# -                                                 
+# 4    91        N        INL                PAR     DA       blank        FSN
+  4   600        N        P                  PAR     DA       blank
+# -                                                 
+# 4   649        N        P                  PAR     DA       blank
+  4   650        N        D                  PAR     DA       blank
+# -                                                 
+# 4   699        N        D                  PAR     DA       blank
+  4   700        N        T                  PAR     DA       blank
+# -                                                 
+# 4   749        N        T                  PAR     DA       blank
+  4   750        N        HE3                PAR     DA       blank
+# -                                                 
+# 4   799        N        HE3                PAR     DA       blank
+  4   800        N        A                  PAR     DA       blank
+# -                                                 
+# 4   849        N        A                  PAR     DA       blank
+                                                    
+  5    16        N        2N                         DE                    MF5 is only for incident neutrons
+  5    17        N        3N                         DE
+  5    18        N        F                  blank   DE       N
+  5    18        N        F                  PR      DE       N
+  5    20        N        INEL+F             blank   DE       N
+  5    20        N        N+F                blank   DE       N
+  5    21        N        2N+F               blank   DE       N            (N,2N+F)*,,DE,N
+  5    22        N        N+A                        DE       N            (N,N+A)*,*,DE,N
+  5    23        N        N+3A                       DE       N
+  5    24        N        2N+A                       DE       N
+  5    25        N        3N+A                       DE       N
+  5    28        N        N+P                        DE       N
+  5    29        N        N+2A                       DE       N
+  5    30        N        2N+2A                      DE       N
+  5    32        N        N+D                        DE       N
+  5    33        N        N+T                        DE       N
+  5    34        N        N+HE3                      DE       N
+  5    35        N        N+D+2A                     DE       N
+  5    36        N        N+T+2A                     DE       N
+  5    37        N        4N                         DE
+  5    38        N        3N+F               blank   DE       N
+  5    41        N        2N+P                       DE       N
+  5    42        N        3N+P                       DE       N
+  5    44        N        N+2P                       DE       N
+  5    45        N        N+P+A                      DE       N
+  5    91        N        INL                        DE
+  5   201        N        X        0-NN-1            DE
+  5   455        N        F                  DL      DE       N
+  5   455        N        F                  DL/PAR  DE       N
+  5   649        N        P                          DE
+  5   649        N        X        1-H-1             DE
+  5   699        N        D                          DE
+  5   699        N        X        1-H-2             DE
+  5   749        N        T                          DE
+  5   749        N        X        1-H-3             DE
+  5   799        N        HE3                        DE
+  5   799        N        X        2-HE-3            DE
+  5   849        N        A                          DE
+  5   849        N        X        2-HE-4            DE
+                                                    
+  6     5        Z        X        0-G-0             DA/DE
+  6     5        Z        X        0-NN-1            DA/DE
+  6     5        Z        X        1-H-1             DA/DE
+  6     5        Z        X        1-H-2             DA/DE
+  6     5        Z        X        1-H-3             DA/DE
+  6     5        Z        X        2-HE-3            DA/DE
+  6     5        Z        X        2-HE-4            DA/DE
+  6     5        Z        X        3-LI-6            DA/DE
+  6     5        Z        X        3-LI-7            DA/DE
+  6     5        Z        X        4-BE-9            DA/DE
+  6     5        Z        X        5-B-10            DA/DE
+  6    11        Z        2N+D                       DA/DE
+  6    16        Z        2N                         DA/DE
+  6    17        Z        3N                         DA/DE
+  6    18        Z        F                          DA/DE
+  6    19        Z        INL+F                      DA/DE
+  6    19        Z        N+F                        DA/DE
+  6    22        Z        N+A                        DA/DE
+  6    23        Z        N+3A                       DA/DE
+  6    24        Z        2N+A                       DA/DE
+  6    25        Z        3N+A                       DA/DE
+  6    28        Z        N+P                        DA/DE
+  6    29        Z        N+2A                       DA/DE
+  6    30        Z        2N+2A                      DA/DE
+  6    32        Z        N+D                        DA/DE
+  6    33        Z        N+T                        DA/DE
+  6    34        Z        N+HE3                      DA/DE
+  6    35        Z        N+D+2A                     DA/DE
+  6    36        Z        N+T+2A                     DA/DE
+  6    17        Z        4N                         DA/DE
+  6    41        Z        N+2P                       DA/DE
+  6    42        Z        3N+P                       DA/DE
+  6    44        Z        N+2P                       DA/DE
+  6    45        Z        N+P+A                      DA/DE
+  6    50        Z-N      N                  PAR     DA                    FSN
+  6    51        N        INL                PAR     DA                    FSN
+# -                                                 
+# 6    90        N        INL                PAR     DA                    (N,INL)*,PAR,DA, FSN
+  6    91        N        INL                PAR     DA/DE                 (N,INL)*,PAR,DA/DE, FSN
+  6    51        Z-N      N                  PAR     DA                    FSN
+# -                                                 
+# 6    90        Z-N      N                  PAR     DA                    FSN
+  6    91        Z-N      N                  PAR     DA/DE                 FSN
+  6    51        Z        X        0-NN-1    PAR     DA                    FSN
+# -                                                 
+# 6    90        Z        X        0-NN-1    PAR     DA                    FSN
+  6    91        Z        X        0-NN-1            DA/DE                 FSN
+  6   102        Z        G                          DA/DE
+  6   103        Z-P      P                          DA/DE
+  6   104        Z-D      D                          DA/DE
+  6   105        Z-T      T                          DA/DE
+  6   106        Z-HE3    HE3                        DA/DE
+  6   107        Z-A      A                          DA/DE
+  6   108        Z        2A                         DA/DE
+  6   109        Z        3A                         DA/DE
+  6   111        Z        2P                         DA/DE
+  6   112        Z        P+A                        DA/DE
+  6   113        Z        T+2A                       DA/DE
+  6   114        Z        D+2A                       DA/DE
+  6   115        Z        P+D                        DA/DE
+  6   116        Z        P+T                        DA/DE
+  6   117        Z        D+A                        DA/DE
+  6   201        Z        X        0-NN-1            DA/DE
+  6   203        Z        X        1-H-1             DA/DE
+  6   204        Z        X        1-H-2             DA/DE
+  6   205        Z        X        1-H-3             DA/DE
+  6   206        Z        X        2-HE-3            DA/DE                 (Z,X)2-HE-3,*,DA/DE
+  6   207        Z        X        2-HE-4            DA/DE
+  6   600        Z        P                  PAR     DA       blank        (Z,P)*,PAR,DA,,
+# -                                                  
+# 6   648        Z        P                  PAR     DA       blank
+  6   649        Z        P                          DA/DE    blank
+  6   650        Z        D                  PAR     DA       blank
+# -                                                  
+# 6   658        Z        D                  PAR     DA       blank
+  6   659        Z        D                          DA/DE    blank
+  6   700        Z        T                  PAR     DA       blank
+# -                                                  
+# 6   748        Z        T                  PAR     DA       blank
+  6   749        Z        T                          DA/DE    blank
+  6   750        Z        HE3                PAR     DA       blank
+# -                                                  
+# 6   798        Z        HE3                PAR     DA       blank
+  6   799        Z        HE3                        DA/DE    blank
+  6   800        Z        A                  PAR     DA       blank
+# -                                                  
+# 6   848        Z        A                  PAR     DA       blank
+  6   849        Z        A                          DA/DE    blank
+  6   848        Z        A                  PAR     DA       blank
+  6   849        Z        A                          DA/DE    blank
+                                                     
+# 6   875                                                                  is used only in Be-9+n JEF-3 (n,n1)+n+a+a
+# 6   876                                                                  is used only in Be-9+n JEF-3 (n,n2)+n+a+a
+# 6   877                                                                  is used only in Be-9+n JEF-3 (n,n3)+n+a+a
+# 6   878                                                                  is used only in Be-9+n JEF-3 (n,n4)+n+a+a
+# 6   879                                                                  is used only in Be-9+n JEF-3 (n,n5)+n+a+a
+# 6   880                                                                  is used only in Be-9+n JEF-3 (n,n6)+n+a+a
+# 6   881                                                                  is used only in Be-9+n JEF-3 (n,n7)+n+a+a
+# 6   882                                                                  is used only in Be-9+n JEF-3 (n,n8)+n+a+a
+# 6   883                                                                  is used only in Be-9+n JEF-3 (n,n9)+n+a+a
+# 6   884                                                                  is used only in Be-9+n JEF-3 (n,n10)+n+a+a
+# 6   885                                                                  is used only in Be-9+n JEF-3 (n,n11)+n+a+a
+# 6   886                                                                  is used only in Be-9+n JEF-3 (n,a1)+n+n+a
+# 6   887                                                                  is used only in Be-9+n JEF-3 (n,a2)+n+n+a
+# 6   888                                                                  is used only in Be-9+n JEF-3 (n,(n+a))+n+a
+# 6   889                                                                  is used only in Be-9+n JEF-3 (n,(n+n+(a+a)))
+# 6   890                                                                  is used only in Be-9+n JEF-3 (n,(n+a+(n_a)))
+
+##END
+                                                     
+  7     2        N        THS                COH                           ???
+  7     2        N        THS                BA/COH                        ???
+  7     2        N        THS                BA                            ???
+  7     2        N        THS                INC                           ???
+# 7     4                                                                  ???
+                                                     
+  8   454        Z        F                  IND     FY                    FSN
+  8   454        Z        F                  IND/TER FY                    FSN
+  8   454        Z        F                  IND     FY/DE                 FSN
+  8   459        Z        F                  CUM     FY                    FSN
+                                                     
+# 9                                                                        is used in reconstructing of activation cross section
+                                                     
+# 10    4        N        INL      *-M*                                    is used as activation cross section given explicitly
+# 10    5                                                                  is used for any activation cross section given explicitly, FSN
+# 10   16        N        2N                                               is used as activation cross section given explicitly, FSN
+# 10   27        N        ABS                                              is used as activation cross section given explicitly, FSN
+# 10   28        N        N+P                                              is used as activation cross section given explicitly, FSN
+# 10  102        N        G                                                is used as activation cross section given explicitly, FSN
+# 10  103        N        P                                                is used as activation cross section given explicitly, FSN
+# 10  107        N        A                                                is used as activation cross section given explicitly, FSN
+                                                     
+# 11                                                                       is not used for data presentation
+                                                     
+# 12                                                                       LO=1 - multipl, LO=2 - tr. prob. arr., used in CS rec.
+                                                     
+  13    3        N        X        0-G-0             SIG                  
+  13    3        N        X                          SIG      G           
+  13    4        N        INL                        SIG      G           
+  13   16        N        2N                         SIG      G           
+  13   17        N        3N                         SIG      G           
+  13   18        N        F                          SIG      G           
+  13   22        N        N+A                        SIG      G           
+  13   22        N        A+N                        SIG      G           
+  13   23        N        3A+N                       SIG      G           
+  13   23        N        N+3A                       SIG      G           
+  13   24        N        A+2N                       SIG      G           
+  13   24        N        2N+A                       SIG      G           
+  13   25        N        A+3N                       SIG      G           
+  13   25        N        3N+A                       SIG      G           
+  13   27        N        ABS                        SIG      G           
+  13   28        N        N+P                        SIG      G           
+  13   28        N        P+N                        SIG      G           
+  13   29        N        N+2A                       SIG      G           
+  13   29        N        2A+N                       SIG      G           
+  13   30        N        2N+2A                      SIG      G           
+  13   30        N        2A+2N                      SIG      G           
+  13   32        N        N+D                        SIG      G           
+  13   32        N        D+N                        SIG      G           
+  13   33        N        N+T                        SIG      G           
+  13   33        N        T+N                        SIG      G           
+  13   34        N        N+3HE                      SIG      G           
+  13   34        N        3HE+N                      SIG      G           
+  13   35        N        N+D+2A                     SIG      G           
+  13   35        N        N+2A+D                     SIG      G           
+  13   35        N        D+2A+N                     SIG      G           
+  13   35        N        D+N+2A                     SIG      G           
+  13   35        N        2A+N+D                     SIG      G           
+  13   35        N        2A+D+N                     SIG      G           
+  13   36        N        N+T+2A                     SIG      G           
+  13   36        N        N+2A+T                     SIG      G           
+  13   36        N        T+2A+N                     SIG      G           
+  13   36        N        T+N+2A                     SIG      G           
+  13   36        N        2A+N+T                     SIG      G           
+  13   36        N        2A+T+N                     SIG      G           
+  13   37        N        4N                         SIG      G           
+  13   38        N        3N+F                       SIG      G           
+  13   41        N        2N+P                       SIG      G           
+  13   41        N        P+2N                       SIG      G           
+  13   42        N        3N+P                       SIG      G           
+  13   42        N        P+3N                       SIG      G           
+  13   44        N        N+2P                       SIG      G           
+  13   44        N        2P+N                       SIG      G           
+  13   45        N        N+P+A                      SIG      G           
+  13   45        N        N+A+P                      SIG      G           
+  13   45        N        P+A+N                      SIG      G           
+  13   45        N        P+N+A                      SIG      G           
+  13   45        N        A+N+P                      SIG      G           
+  13   45        N        A+P+N                      SIG      G           
+  13   51        N        INL                PAR     SIG      G           
+# -                                                  
+# 13   90        N        INL                PAR     SIG      G           
+  13   51        N        X        0-G-0     PAR     SIG                  
+# -                                                  
+# 13   90        N        X        0-G-0     PAR     SIG                  
+# 13   91                                                                 difficult to measure when transitions are in continuum
+  13  102        Z        G                          SIG      G           
+  13  103        Z-P      P                          SIG      G           
+  13  103        P        INL                        SIG      G           
+  13  104        Z-D      P                          SIG      G           
+  13  104        D        INL                        SIG      G           
+  13  105        Z-T      P                          SIG      G           
+  13  105        T        INL                        SIG      G           
+  13  106        Z-HE3    P                          SIG      G           
+  13  106        HE3      INL                        SIG      G           
+  13  107        Z-A      A                          SIG      G           
+  13  107        A        INL                        SIG      G           
+  13  108        Z        2A                         SIG      G           
+  13  109        Z        3A                         SIG      G           
+  13  111        Z        2P                         SIG      G           
+  13  112        Z        P+A                        SIG      G           
+  13  112        Z        A+P                        SIG      G           
+  13  113        Z        T+2A                       SIG      G           
+  13  113        Z        2A+T                       SIG      G           
+  13  114        Z        D+2A                       SIG      G           
+  13  114        Z        2A+D                       SIG      G           
+  13  115        Z        P+D                        SIG      G           
+  13  115        Z        D+P                        SIG      G           
+  13  116        Z        P+T                        SIG      G           
+  13  116        Z        T+P                        SIG      G           
+  13  117        Z        D+A                        SIG      G           
+  13  117        Z        A+D                        SIG      G           
+  13  601        Z-P      P                  PAR     SIG      G           
+# -                                                  
+# 13  649        Z-P      P                  PAR     SIG      G           
+  13  601        P        INL                PAR     SIG      G           
+# -                                                  
+# 13  649        P        INL                PAR     SIG      G           
+  13  651        Z-D      D                  PAR     SIG      G           
+# -                                                  
+# 13  699        Z-D      D                  PAR     SIG      G           
+  13  651        D        INL                PAR     SIG      G           
+# -                                                  
+# 13  699        D        INL                PAR     SIG      G           
+  13  701        Z-T      T                  PAR     SIG      G           
+# -                                                  
+# 13  749        Z-T      T                  PAR     SIG      G           
+  13  701        T        INL                PAR     SIG      G           
+# -                                                  
+# 13  749        T        INL                PAR     SIG      G           
+  13  751        Z-HE3    HE3                PAR     SIG      G           
+# -                                                  
+# 13  799        Z-HE3    HE3                PAR     SIG      G           
+  13  751        HE3      INL                PAR     SIG      G           
+# -                                                  
+# 13  759        HE3      INL                PAR     SIG      G           
+  13  801        Z-A      A                  PAR     SIG      G           
+# -                                                  
+# 13  849        Z-A      A                  PAR     SIG      G           
+  13  801        A        INL                PAR     SIG      G           
+# -                                                  
+# 13  849        A        INL                PAR     SIG      G           
+                                                     
+  14    3        N        X        0-G-0             DA                   MF=14 is only for incident neutrons
+  14    3        N        X                          DA       G           
+  14    4        N        INL                        DA       G           
+  14   16        N        2N                         DA       G           
+  14   17        N        3N                         DA       G           
+  14   18        N        F                          DA       G           
+  14   22        N        N+A                        DA       G           
+  14   22        N        A+N                        DA       G           
+  14   23        N        3A+N                       DA       G           
+  14   23        N        N+3A                       DA       G           
+  14   24        N        A+2N                       DA       G           
+  14   24        N        2N+A                       DA       G           
+  14   25        N        A+3N                       DA       G           
+  14   25        N        3N+A                       DA       G           
+  14   27        N        ABS                        DA       G           
+  14   28        N        N+P                        DA       G           
+  14   28        N        P+N                        DA       G           
+  14   29        N        N+2A                       DA       G           
+  14   29        N        2A+N                       DA       G           
+  14   30        N        2N+2A                      DA       G           
+  14   30        N        2A+2N                      DA       G           
+  14   32        N        N+D                        DA       G           
+  14   32        N        D+N                        DA       G           
+  14   33        N        N+T                        DA       G           
+  14   33        N        T+N                        DA       G           
+  14   34        N        N+3HE                      DA       G           
+  14   34        N        3HE+N                      DA       G           
+  14   35        N        N+D+2A                     DA       G           
+  14   35        N        N+2A+D                     DA       G           
+  14   35        N        D+2A+N                     DA       G           
+  14   35        N        D+N+2A                     DA       G           
+  14   35        N        2A+N+D                     DA       G           
+  14   35        N        2A+D+N                     DA       G           
+  14   36        N        N+T+2A                     DA       G           
+  14   36        N        N+2A+T                     DA       G           
+  14   36        N        T+2A+N                     DA       G           
+  14   36        N        T+N+2A                     DA       G           
+  14   36        N        2A+N+T                     DA       G           
+  14   36        N        2A+T+N                     DA       G           
+  14   37        N        4N                         DA       G           
+  14   38        N        3N+F                       DA       G           
+  14   41        N        2N+P                       DA       G           
+  14   41        N        P+2N                       DA       G           
+  14   42        N        3N+P                       DA       G           
+  14   42        N        P+3N                       DA       G           
+  14   44        N        N+2P                       DA       G           
+  14   44        N        2P+N                       DA       G           
+  14   45        N        N+P+A                      DA       G           
+  14   45        N        N+A+P                      DA       G           
+  14   45        N        P+A+N                      DA       G           
+  14   45        N        P+N+A                      DA       G           
+  14   45        N        A+N+P                      DA       G           
+  14   45        N        A+P+N                      DA       G           
+  14   51        N        INL                PAR     DA       G           
+# -                                                  
+# 14   90        N        INL                PAR     DA       G           
+  14   51        N        X        0-G-0     PAR     DA                   
+# -                                                  
+# 14   90        N        X        0-G-0     PAR     DA                   
+# 14   91                                                                 generally can not be used in B-6
+  14  102        Z        G                          DA       G           
+  14  103        Z-P      P                          DA       G           
+  14  103        P        INL                        DA       G           
+  14  104        Z-D      P                          DA       G           
+  14  104        D        INL                        DA       G           
+  14  105        Z-T      P                          DA       G           
+  14  105        T        INL                        DA       G           
+  14  106        Z-HE3    P                          DA       G           
+  14  106        HE3      INL                        DA       G           
+  14  107        Z-A      A                          DA       G           
+  14  107        A        INL                        DA       G           
+  14  108        Z        2A                         DA       G           
+  14  109        Z        3A                         DA       G           
+  14  111        Z        2P                         DA       G           
+  14  112        Z        P+A                        DA       G           
+  14  112        Z        A+P                        DA       G           
+  14  113        Z        T+2A                       DA       G           
+  14  113        Z        2A+T                       DA       G           
+  14  114        Z        D+2A                       DA       G           
+  14  114        Z        2A+D                       DA       G           
+  14  115        Z        P+D                        DA       G           
+  14  115        Z        D+P                        DA       G           
+  14  116        Z        P+T                        DA       G           
+  14  116        Z        T+P                        DA       G           
+  14  117        Z        D+A                        DA       G           
+  14  117        Z        A+D                        DA       G           
+  14  601        Z-P      P                  PAR     DA       G           
+# -                                                  
+# 14  649        Z-P      P                  PAR     DA       G           
+  14  601        P        INL                PAR     DA       G           
+# -                                                  
+# 14  649        P        INL                PAR     DA       G           
+  14  651        Z-D      D                  PAR     DA       G           
+# -                                                  
+# 14  699        Z-D      D                  PAR     DA       G           
+  14  651        D        INL                PAR     DA       G           
+# -                                                  
+# 14  699        D        INL                PAR     DA       G           
+  14  701        Z-T      T                  PAR     DA       G           
+# -                                                  
+# 14  749        Z-T      T                  PAR     DA       G           
+  14  701        T        INL                PAR     DA       G           
+# -                                                  
+# 14  749        T        INL                PAR     DA       G           
+  14  751        Z-HE3    HE3                PAR     DA       G           
+# -                                                  
+# 14  799        Z-HE3    HE3                PAR     DA       G           
+  14  751        HE3      INL                PAR     DA       G           
+# -                                                  
+# 14  759        HE3      INL                PAR     DA       G           
+  14  801        Z-A      A                  PAR     DA       G           
+# -                                                  
+# 14  849        Z-A      A                  PAR     DA       G           
+  14  801        A        INL                PAR     DA       G           
+# -                                                  
+# 14  849        A        INL                PAR     DA       G           
+                                                     
+  15    3        N        X        0-G-0     blank   DE                   MF=15 is only for incident neutrons
+  15    3        N        X                  blank   DE       G           
+  15    4        N        INL                blank   DE       G           
+  15   16        N        2N                 blank   DE       G           
+  15   17        N        3N                 blank   DE       G           
+  15   18        N        F                  blank   DE       G           
+  15   22        N        N+A                blank   DE       G           
+  15   22        N        A+N                blank   DE       G           
+  15   23        N        3A+N               blank   DE       G           
+  15   23        N        N+3A               blank   DE       G           
+  15   24        N        A+2N               blank   DE       G           
+  15   24        N        2N+A               blank   DE       G           
+  15   25        N        A+3N               blank   DE       G           
+  15   25        N        3N+A               blank   DE       G           
+  15   27        N        ABS                blank   DE       G           
+  15   28        N        N+P                blank   DE       G           
+  15   28        N        P+N                blank   DE       G           
+  15   29        N        N+2A               blank   DE       G           
+  15   29        N        2A+N               blank   DE       G           
+  15   30        N        2N+2A              blank   DE       G           
+  15   30        N        2A+2N              blank   DE       G           
+  15   32        N        N+D                blank   DE       G           
+  15   32        N        D+N                blank   DE       G           
+  15   33        N        N+T                blank   DE       G           
+  15   33        N        T+N                blank   DE       G           
+  15   34        N        N+3HE              blank   DE       G           
+  15   34        N        3HE+N              blank   DE       G           
+  15   35        N        N+D+2A             blank   DE       G           
+  15   35        N        N+2A+D             blank   DE       G           
+  15   35        N        D+2A+N             blank   DE       G           
+  15   35        N        D+N+2A             blank   DE       G           
+  15   35        N        2A+N+D             blank   DE       G           
+  15   35        N        2A+D+N             blank   DE       G           
+  15   36        N        N+T+2A             blank   DE       G           
+  15   36        N        N+2A+T             blank   DE       G           
+  15   36        N        T+2A+N             blank   DE       G           
+  15   36        N        T+N+2A             blank   DE       G           
+  15   36        N        2A+N+T             blank   DE       G           
+  15   36        N        2A+T+N             blank   DE       G           
+  15   37        N        4N                 blank   DE       G           
+  15   38        N        3N+F               blank   DE       G           
+  15   41        N        2N+P               blank   DE       G           
+  15   41        N        P+2N               blank   DE       G           
+  15   42        N        3N+P               blank   DE       G           
+  15   42        N        P+3N               blank   DE       G           
+  15   44        N        N+2P               blank   DE       G           
+  15   44        N        2P+N               blank   DE       G           
+  15   45        N        N+P+A              blank   DE       G           
+  15   45        N        N+A+P              blank   DE       G           
+  15   45        N        P+A+N              blank   DE       G           
+  15   45        N        P+N+A              blank   DE       G           
+  15   45        N        A+N+P              blank   DE       G           
+  15   45        N        A+P+N              blank   DE       G           
+  15   91        N        INL                blank   DE       G           
+  15  102        Z        G                  blank   DE                   
+  15  103        Z-P      P                  blank   DE       G           
+  15  103        P        INL                blank   DE       G           
+  15  104        Z-D      P                  blank   DE       G           
+  15  104        D        INL                blank   DE       G           
+  15  105        Z-T      P                  blank   DE       G           
+  15  105        T        INL                blank   DE       G           
+  15  106        Z-HE3    P                  blank   DE       G           
+  15  106        HE3      INL                blank   DE       G           
+  15  107        Z-A      A                  blank   DE       G           
+  15  107        A        INL                blank   DE       G           
+  15  108        Z        2A                 blank   DE       G           
+  15  109        Z        3A                 blank   DE       G           
+  15  111        Z        2P                 blank   DE       G           
+  15  112        Z        P+A                blank   DE       G           
+  15  112        Z        A+P                blank   DE       G           
+  15  113        Z        T+2A               blank   DE       G           
+  15  113        Z        2A+T               blank   DE       G           
+  15  114        Z        D+2A               blank   DE       G           
+  15  114        Z        2A+D               blank   DE       G           
+  14  115        Z        P+D                blank   DE       G           
+  15  115        Z        D+P                blank   DE       G           
+  15  116        Z        P+T                blank   DE       G           
+  15  116        Z        T+P                blank   DE       G           
+  15  117        Z        D+A                blank   DE       G           
+  15  117        Z        A+D                blank   DE       G           
+
+#by V.Zerkin, 2010 //draft
+ 213   18   0    Z        F                          RI       blank
+ 213   27   0    Z        ABS                        RI       blank
+ 213  102   0    N        G                 blank    RI            
+ 213  103   0    Z        P                 blank    RI       blank        (Z,P)*,,RI,,
+  4    51  28    N        N+P                PAR     DA       N
+#by V.Zerkin, 2011 //draft
+# MF   MT   LR   SF2      SF3      SF4      SF5      SF6      SF7          Reaction String Sample, comment
+  13    0        Z                                   SIG      G           
+  14    0        Z                                   DA       G
+  15    0        Z                                   DE       G
+  3     0        Z                                   SIG
+  4     0        Z                                   DA
+  5     0        Z                                   DE
+  6     0        Z                                   DA/DE
+
+#by V.Zerkin, 2011 //draft
+# MF   MT   LR   SF2      SF3      SF4      SF5      SF6      SF7          Reaction String Sample, comment
+  8   454        Z        F                  SEC     FY                    FSN

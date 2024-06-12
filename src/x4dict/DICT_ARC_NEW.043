@@ -1,0 +1,52 @@
+ TRA 199411  0                             ENDF/B                                                                          
+ TRA 199411  1                             ENDF/A                                                                          
+ TRA 200902  2                             JEFF                                                                            
+ TRA                                        until version 2.2 (1993): JEF                                                  
+ EXT 200902  3                             EFF                                                                             
+ EXT                                        last version: EFF-2.4 (1994)                                                   
+ TRA 200902  4                             ENDF/HE                                                                         
+ TRA 199411  5                             CENDL                                                                           
+ TRA 199411  6                             JENDL                                                                           
+ TRA 200902 21                             IFPL                                                                            
+ TRA                                        International Fission Product Library of Neutron                               
+ TRA                                       Cross section Evaluations                                                       
+ TRA 199411 31                             INDL/V                                                                          
+ TRA 199411 32                             INDL/A                                                                          
+ TRA 200902 33                             FENDL/E, FENDL/C, FENDL/D                                                       
+ TRA                                        FENDL/E (neutrons, full evaluations);                                          
+ TRA                                        FENDL/C (charged particles, fusion reactions);                                 
+ TRA                                        FENDL/D (decay data)                                                           
+ TRA 201505 34                             IRDFF                                                                           
+ TRA                                        until version 2002: IRDF                                                       
+ TRA                                        same as FENDL/DS (neutron dosimetry)                                           
+ TRA 199411 35                             BROND-NDS                                                                       
+ TRA 200902 36                             INGDB-90                                                                        
+ TRA                                        (Geophysics data)                                                              
+ TRA 200902 37                             FENDL/A                                                                         
+ TRA                                        (Neutron activation)                                                           
+ TRA 200002 38                             SPALLDOS                                                                        
+ TRA 200902 41                             BROND                                                                           
+ TRA                                        (Original Version)                                                             
+ TRA 200902 49                             MENDL-2                                                                         
+ TRA                                        Medium Energy Nuclear Data Library (1995-1998)                                 
+ TRA 200902 51                             ADL-3                                                                           
+ TRA                                        Neutron activation data library, Rev. 2, July 1995                             
+ TRA 200902 52                             MINSK-ACT                                                                       
+ TRA                                        Minsk Actinides Library (Maslov et al.)                                        
+ TRA 200902 53                             YAVSHITS                                                                        
+ TRA                                        Neutron, proton induced fission for Pb-Pu (20-200 MeV)                         
+ TRA 200902 54                             WIND                                                                            
+ TRA                                        Neutron activation data Library for U, Np, Pu (up to                           
+ TRA                                       100 MeV) and Pu-239 (up to 2 GeV)                                               
+ TRA 200902 55                             IAEA-Medical                                                                    
+ TRA                                        IAEA-Medical Charged-particle cross section database                           
+ TRA                                       for medical radioisotope production (2001)                                      
+ TRA 200902 56                             IBA-EVAL                                                                        
+ TRA                                        IBAE-EVAL Differential charged-particle cross sections                         
+ TRA                                       for ion beam analysis (2006-2007)                                               
+ TRA 200902 57                             IAEA-STD                                                                        
+ TRA                                        IAEA-STD Standard Cross Sections (2006)                                        
+ TRA 200902 58                             PADF                                                                            
+ TRA                                        Proton Activation Data File                                                    
+ TRA 200902 59                             RUSFOND                                                                         
+ TRA                                        Russian File of Evaluated Neutron Data                                         

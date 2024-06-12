@@ -1,0 +1,341 @@
+REQUEST         484001   20150130          3     110430               0  0    0
+ENTRY            C0053   20040310   20040512   20050926       0000C0053000    1
+SUBENT        C0053001   20040310   20040512   20050926       0000C0053001    1
+BIB                 12         25                                 C0053001    2
+INSTITUTE  (1USAMRY)                                              C0053001    3
+REFERENCE  (J,PR/C,10,520,197408)                                 C0053001    4
+AUTHOR     (L.G.Votta,P.G.Roos,N.S.Chant,R.Woody)                 C0053001    5
+TITLE      Elastic proton scattering from 3He and 4He and the     C0053001    6
+            4He(p,d)3He reaction at 85 MeV                        C0053001    7
+FACILITY   (CYCLO,1USAMRY)                                        C0053001    8
+SAMPLE     Helium gas.                                            C0053001    9
+METHOD     (EDE)                                                  C0053001   10
+DETECTOR   (TELES,SOLST,NAICR) Silicon surface barrier detector   C0053001   11
+            used as delta E detector, NaI(Tl) crystal used as E   C0053001   12
+            detector.                                             C0053001   13
+           Beam current monitored with Faraday cup.               C0053001   14
+CORRECTION Corrected for:                                         C0053001   15
+           . background,                                          C0053001   16
+           . electronic dead time,                                C0053001   17
+           . reactions in the NaI(Tl) crystal.                    C0053001   18
+ERR-ANALYS (DATA-ERR) Relative uncertainty.  Includes             C0053001   19
+           . statistical uncertainty,                             C0053001   20
+           . error induced by background subtraction,             C0053001   21
+           . error due to fluctuationsin the ratio of the monitor C0053001   22
+             counter to the Faraday cup integrator.               C0053001   23
+           Absolute uncertainty in cross section approximately 8%.C0053001   24
+STATUS     Data taken from article.                               C0053001   25
+HISTORY    (19970625C)                                            C0053001   26
+           (20040310A) Converted to new date formats.             C0053001   27
+ENDBIB              25                                            C0053001   28
+COMMON               2          3                                 C0053001   29
+EN         EN-RSL                                                 C0053001   30
+MEV        KEV                                                    C0053001   31
+ 85.        150.                                                  C0053001   32
+ENDCOMMON            3                                            C0053001   33
+ENDSUBENT           32                                            C005300199999
+SUBENT        C0053004     970701              20050926       0000C0053004    1
+BIB                  1          1                                 C0053004    2
+REACTION   (2-HE-4(P,D)2-HE-3,,DA)                                C0053004    3
+ENDBIB               1                                            C0053004    4
+NOCOMMON             0          0                                 C0053004    5
+DATA                 3         27                                 C0053004    6
+ANG-CM     DATA       DATA-ERR                                    C0053004    7
+ADEG       MB/SR      MB/SR                                       C0053004    8
+  9.1        2.01  +01  0.10  +01                                 C0053004    9
+ 11.8        1.28  +01  0.05  +01                                 C0053004   10
+ 12.1        1.30  +01  0.04  +01                                 C0053004   11
+ 14.8        9.20       0.48                                      C0053004   12
+ 15.1        1.00  +01  0.03  +01                                 C0053004   13
+ 18.8        5.85       0.36                                      C0053004   14
+ 22.5        3.27       0.11                                      C0053004   15
+ 26.3        2.57       0.18                                      C0053004   16
+ 29.9        2.41       0.07                                      C0053004   17
+ 33.6        2.87       0.22                                      C0053004   18
+ 37.3        2.75       0.18                                      C0053004   19
+ 44.5        2.61       0.07                                      C0053004   20
+ 51.7        1.90       0.06                                      C0053004   21
+ 58.7        1.21       0.04                                      C0053004   22
+ 65.7        7.31  -01  0.34  -01                                 C0053004   23
+ 72.4        4.22  -01  0.20  -01                                 C0053004   24
+ 79.0        2.93  -01  0.13  -01                                 C0053004   25
+ 85.5        1.93  -01  0.10  -01                                 C0053004   26
+ 91.7        1.68  -01  0.09  -01                                 C0053004   27
+ 97.7        1.54  -01  0.08  -01                                 C0053004   28
+100.7        1.44  -01  0.07  -01                                 C0053004   29
+109.1        1.97  -01  0.09  -01                                 C0053004   30
+114.5        2.46  -01  0.09  -01                                 C0053004   31
+119.6        2.70  -01  0.14  -01                                 C0053004   32
+124.4        2.90  -01  0.15  -01                                 C0053004   33
+129.1        2.92  -01  0.13  -01                                 C0053004   34
+133.4        2.34  -01  0.16  -01                                 C0053004   35
+ENDDATA             29                                            C0053004   36
+ENDSUBENT           35                                            C005300499999
+SUBENT        C0053005     970701              20050926       0000C0053005    1
+BIB                  2          2                                 C0053005    2
+REACTION   (2-HE-4(P,D)2-HE-3,,DA)                                C0053005    3
+PART-DET   (HE3) Recoil 3He particles detected.                   C0053005    4
+ENDBIB               2                                            C0053005    5
+NOCOMMON             0          0                                 C0053005    6
+DATA                 3         13                                 C0053005    7
+ANG-CM     DATA       DATA-ERR                                    C0053005    8
+ADEG       MB/SR      MB/SR                                       C0053005    9
+103.6        1.64  -01  0.07  -01                                 C0053005   10
+111.7        1.83  -01  0.13  -01                                 C0053005   11
+128.3        3.19  -01  0.14  -01                                 C0053005   12
+136.7        2.54  -01  0.45  -01                                 C0053005   13
+141.0        2.23  -01  0.50  -01                                 C0053005   14
+145.2        1.61  -01  0.10  -01                                 C0053005   15
+149.5        2.30  -01  0.44  -01                                 C0053005   16
+153.8        2.09  -01  0.18  -01                                 C0053005   17
+158.2        4.08  -01  0.76  -01                                 C0053005   18
+162.5        8.25  -01  0.60  -01                                 C0053005   19
+165.9        1.02       0.08                                      C0053005   20
+166.3        1.05       0.12                                      C0053005   21
+169.4        1.61       0.22                                      C0053005   22
+ENDDATA             15                                            C0053005   23
+ENDSUBENT           22                                            C005300599999
+ENDENTRY             3                                            C005399999999
+ENTRY            O0854   20030501              20050926       0000O0854000    1
+SUBENT        O0854001   20030501              20050926       0000O0854001    1
+BIB                 11         20                                 O0854001    2
+TITLE      Elastic scattering cross sections for the analysis of  O0854001    3
+           helium by 1-H backscattering and hydrogen by 4-He erd. O0854001    4
+REFERENCE  (J,NIM/B,136-138,77,1998)                              O0854001    5
+AUTHOR     (A.Nurmela, J.Raisanen, E.Rauhala)                     O0854001    6
+INSTITUTE  (2SF HLS)                                              O0854001    7
+FACILITY   (VDG,2SF HLS)                                          O0854001    8
+DETECTOR   (SIBAR) Several ion implanted silicon detectors were   O0854001    9
+           employed simultaneously and placed at laboratory       O0854001   10
+           scattering angles of 110-160 degrees.                  O0854001   11
+SAMPLE     The target was prepared by implating helium into 1.5   O0854001   12
+           mumeters-thick tantalum foil with 60 KeV energy.       O0854001   13
+           The resulting amount of helium in the target, 1.6e+17  O0854001   14
+           atoms/cm**2, was determined by the transmission elasticO0854001   15
+           recoil method with 10.8 MeV 28-Si ions.                O0854001   16
+METHOD     (SITA)                                                 O0854001   17
+           (EXTB)                                                 O0854001   18
+REL-REF    (N,,A.NURMELA+,J,JAP,82,1983,1997) Details of method.  O0854001   19
+HISTORY    (20010406C)                                            O0854001   20
+           (20030501U) Last checking has been done.               O0854001   21
+ADD-RES    (COMP) Comparing with another experiments.             O0854001   22
+ENDBIB              20                                            O0854001   23
+NOCOMMON                                                          O0854001   24
+ENDSUBENT           23                                            O085400199999
+SUBENT        O0854002   20030501              20050926       0000O0854002    1
+BIB                  4          4                                 O0854002    2
+REACTION   (2-HE-4(P,EL)2-HE-4,,DA,,RTH)                          O0854002    3
+PART-DET   (P)                                                    O0854002    4
+COMMENT    - By compiler - noany uncertainties are not given.     O0854002    5
+MISC-COL   (MISC) Recoil angle of 4-He.                           O0854002    6
+ENDBIB               4                                            O0854002    7
+NOCOMMON                                                          O0854002    8
+DATA                 4         59                                 O0854002    9
+EN         ANG        DATA       MISC                             O0854002   10
+MEV        ADEG       NO-DIM     ADEG                             O0854002   11
+        1.6       120.        48.        24.                      O0854002   12
+        1.6       130.        53.        19.                      O0854002   13
+        1.6       150.        79.        11.                      O0854002   14
+        1.6       160.        81.         8.                      O0854002   15
+        1.7       110.        30.        28.                      O0854002   16
+        1.7       120.        50.        24.                      O0854002   17
+        1.7       130.        60.        19.                      O0854002   18
+        1.7       150.        97.        11.                      O0854002   19
+        1.7       160.       106.         8.                      O0854002   20
+        1.8       110.        28.        28.                      O0854002   21
+        1.8       120.        52.        24.                      O0854002   22
+        1.8       130.        77.        19.                      O0854002   23
+        1.8       150.       116.        11.                      O0854002   24
+        1.8       160.       134.         8.                      O0854002   25
+        1.9       110.        47.        28.                      O0854002   26
+        1.9       120.        73.        24.                      O0854002   27
+        1.9       130.        96.        19.                      O0854002   28
+        1.9       150.       157.        11.                      O0854002   29
+        1.9       160.       172.         8.                      O0854002   30
+         2.       110.        55.        28.                      O0854002   31
+         2.       120.        94.        24.                      O0854002   32
+         2.       130.       119.        19.                      O0854002   33
+         2.       150.       187.        11.                      O0854002   34
+         2.       160.       195.         8.                      O0854002   35
+        2.1       110.        70.        28.                      O0854002   36
+        2.1       120.        91.        24.                      O0854002   37
+        2.1       130.       126.        19.                      O0854002   38
+        2.1       150.       200.        11.                      O0854002   39
+        2.1       160.       230.         8.                      O0854002   40
+        2.2       110.        79.        28.                      O0854002   41
+        2.2       120.       107.        24.                      O0854002   42
+        2.2       130.       160.        19.                      O0854002   43
+        2.2       150.       220.        11.                      O0854002   44
+        2.2       160.       260.         8.                      O0854002   45
+        2.3       110.        81.        28.                      O0854002   46
+        2.3       120.       114.        24.                      O0854002   47
+        2.3       130.       165.        19.                      O0854002   48
+        2.3       150.       255.        11.                      O0854002   49
+        2.3       160.       275.         8.                      O0854002   50
+        2.4       110.        73.        28.                      O0854002   51
+        2.4       120.       124.        24.                      O0854002   52
+        2.4       130.       165.        19.                      O0854002   53
+        2.4       150.       270.        11.                      O0854002   54
+        2.4       160.       295.         8.                      O0854002   55
+        2.5       110.        67.        28.                      O0854002   56
+        2.5       120.       118.        24.                      O0854002   57
+        2.5       130.       175.        19.                      O0854002   58
+        2.5       150.       270.        11.                      O0854002   59
+        2.5       160.       310.         8.                      O0854002   60
+        2.6       110.        88.        28.                      O0854002   61
+        2.6       120.       132.        24.                      O0854002   62
+        2.6       130.       180.        19.                      O0854002   63
+        2.6       150.       280.        11.                      O0854002   64
+        2.6       160.       305.         8.                      O0854002   65
+        2.7       110.        86.        28.                      O0854002   66
+        2.7       120.       123.        24.                      O0854002   67
+        2.7       130.       175.        19.                      O0854002   68
+        2.7       150.       285.        11.                      O0854002   69
+        2.7       160.       320.         8.                      O0854002   70
+ENDDATA             61                                            O0854002   71
+ENDSUBENT           70                                            O085400299999
+ENDENTRY             2                                            O085499999999
+ENTRY            O0915   20040312              20050926       0000O0915000    1
+SUBENT        O0915001   20040312              20050926       0000O0915001    1
+BIB                 12         35                                 O0915001    2
+TITLE      Elastic scattering cross sections for the P+He system  O0915001    3
+           in the energy region of 1.4-24 MeV.                    O0915001    4
+AUTHOR     (A.Nurmela, E.Rauhala, J.Raisanen)                     O0915001    5
+INSTITUTE  (2SF HLS) Accelerator laboratory.                      O0915001    6
+FACILITY   (VDG,2SF HLS)                                          O0915001    7
+           (VDGT,2SF HLS) At energies above 2.7 MeV and for       O0915001    8
+           obtaining the 10-MeV Si-28 beam the laboratory'S 5 MV  O0915001    9
+            EGP-10-II tandem accelerator was used.                O0915001   10
+MONITOR    (73-TA-181(P,EL)73-TA-181,,DA) The cross section was   O0915001   11
+           assumed as Rutherford cross section.                   O0915001   12
+REFERENCE  (J,JAP,82,1983,1997)                                   O0915001   13
+INC-SPECT  *En-rsl* the energy resolution of the detection system O0915001   14
+           was typically 12 KeV for protons.                      O0915001   15
+DETECTOR   (SIBAR)                                                O0915001   16
+           Several ion implanted silicon detectors were placed at O0915001   17
+           laboratory angles of 110-170 degrees. At energies belowO0915001   18
+            2.7 MeV three detectors (25 mm**2,100 mum) and at     O0915001   19
+           higher energies two (25 mm**2,300 mum) detectors were  O0915001   20
+           used.                                                  O0915001   21
+SAMPLE     The helium targets were prepared by implanting 60-KeV  O0915001   22
+            He-4 ions in 1.50-mum thick tantalum foils. The       O0915001   23
+           resulting helium depth distribution has a mean range ofO0915001   24
+            180 nm and a width of 85 nm.                          O0915001   25
+METHOD     (MOMIX)                                                O0915001   26
+HISTORY    (20011112C)                                            O0915001   27
+           (20040312U) Last checking has been done.               O0915001   28
+ERR-ANALYS The uncertainties in the cross section values,         O0915001   29
+           increase from 6% at the low energy and to 7% at the    O0915001   30
+           high energy end. These uncertainties result from       O0915001   31
+           statistical errors and background subtraction          O0915001   32
+           uncertainties in the helium peak area determination    O0915001   33
+           and from the uncertainty in the helium content. When   O0915001   34
+           comparing the cross sections taken at different        O0915001   35
+           energies these relative values are more accurate with  O0915001   36
+           an estimated inaccuracy below 3%.                      O0915001   37
+ENDBIB              35                                            O0915001   38
+NOCOMMON                                                          O0915001   39
+ENDSUBENT           38                                            O091500199999
+SUBENT        O0915002   20040312              20050926       0000O0915002    1
+BIB                  2          2                                 O0915002    2
+REACTION   (2-HE-4(P,EL)2-HE-4,,DA)                               O0915002    3
+PART-DET   (P)                                                    O0915002    4
+ENDBIB               2                                            O0915002    5
+NOCOMMON                                                          O0915002    6
+DATA                 3         90                                 O0915002    7
+EN         ANG        DATA                                        O0915002    8
+MEV        ADEG       B/SR                                        O0915002    9
+        1.4       140.      0.085                                 O0915002   10
+        1.4       170.      0.128                                 O0915002   11
+        1.5       140.      0.153                                 O0915002   12
+        1.5       170.      0.121                                 O0915002   13
+        1.6       140.      0.144                                 O0915002   14
+        1.6       170.      0.169                                 O0915002   15
+        1.7       140.      0.162                                 O0915002   16
+        1.7       170.      0.172                                 O0915002   17
+        1.8       140.      0.189                                 O0915002   18
+        1.8       170.       0.22                                 O0915002   19
+        1.9       140.       0.21                                 O0915002   20
+        1.9       170.      0.232                                 O0915002   21
+         2.       140.      0.232                                 O0915002   22
+         2.       170.      0.243                                 O0915002   23
+        2.1       140.      0.234                                 O0915002   24
+        2.1       170.      0.264                                 O0915002   25
+        2.2       140.      0.245                                 O0915002   26
+        2.2       170.      0.267                                 O0915002   27
+        2.3       140.      0.254                                 O0915002   28
+        2.3       170.      0.265                                 O0915002   29
+        2.4       140.      0.235                                 O0915002   30
+        2.4       170.      0.262                                 O0915002   31
+        2.5       140.      0.222                                 O0915002   32
+        2.5       170.      0.241                                 O0915002   33
+        2.6       140.      0.204                                 O0915002   34
+        2.6       170.      0.227                                 O0915002   35
+        2.7       140.      0.204                                 O0915002   36
+        2.7       170.       0.22                                 O0915002   37
+        2.8       140.      0.186                                 O0915002   38
+        2.8       170.      0.212                                 O0915002   39
+        2.9       140.      0.167                                 O0915002   40
+        2.9       170.      0.183                                 O0915002   41
+         3.       140.      0.163                                 O0915002   42
+         3.       170.      0.173                                 O0915002   43
+        3.1       140.      0.143                                 O0915002   44
+        3.1       170.      0.162                                 O0915002   45
+        3.2       140.      0.139                                 O0915002   46
+        3.2       170.      0.152                                 O0915002   47
+        3.3       140.      0.113                                 O0915002   48
+        3.3       170.      0.137                                 O0915002   49
+        3.4       140.      0.115                                 O0915002   50
+        3.4       170.      0.132                                 O0915002   51
+        3.5       140.      0.102                                 O0915002   52
+        3.5       170.      0.126                                 O0915002   53
+        3.6       140.      0.091                                 O0915002   54
+        3.6       170.      0.112                                 O0915002   55
+        3.7       140.      0.096                                 O0915002   56
+        3.7       170.      0.117                                 O0915002   57
+        3.8       140.      0.082                                 O0915002   58
+        3.8       170.      0.108                                 O0915002   59
+        3.9       140.      0.097                                 O0915002   60
+        3.9       170.      0.094                                 O0915002   61
+         4.       140.       0.08                                 O0915002   62
+         4.       170.       0.09                                 O0915002   63
+        4.1       140.      0.072                                 O0915002   64
+        4.1       170.      0.094                                 O0915002   65
+        4.2       140.      0.084                                 O0915002   66
+        4.2       170.      0.084                                 O0915002   67
+        4.3       140.      0.074                                 O0915002   68
+        4.3       170.       0.09                                 O0915002   69
+        4.4       140.      0.068                                 O0915002   70
+        4.4       170.      0.085                                 O0915002   71
+        4.5       140.      0.076                                 O0915002   72
+        4.5       170.      0.083                                 O0915002   73
+        4.6       140.      0.079                                 O0915002   74
+        4.6       170.      0.083                                 O0915002   75
+        4.7       140.       0.07                                 O0915002   76
+        4.7       170.       0.08                                 O0915002   77
+        4.8       140.      0.069                                 O0915002   78
+        4.8       170.      0.078                                 O0915002   79
+        4.9       140.      0.077                                 O0915002   80
+        4.9       170.      0.074                                 O0915002   81
+         5.       140.      0.067                                 O0915002   82
+         5.       170.      0.082                                 O0915002   83
+        5.1       140.      0.074                                 O0915002   84
+        5.1       170.      0.074                                 O0915002   85
+        5.2       140.      0.068                                 O0915002   86
+        5.2       170.      0.069                                 O0915002   87
+        5.3       140.      0.061                                 O0915002   88
+        5.3       170.       0.08                                 O0915002   89
+        5.4       140.      0.063                                 O0915002   90
+        5.4       170.      0.075                                 O0915002   91
+        5.5       140.      0.065                                 O0915002   92
+        5.5       170.      0.067                                 O0915002   93
+        5.6       140.       0.05                                 O0915002   94
+        5.6       170.      0.074                                 O0915002   95
+        5.7       170.      0.069                                 O0915002   96
+        5.8       170.      0.064                                 O0915002   97
+        5.9       170.      0.067                                 O0915002   98
+         6.       170.       0.07                                 O0915002   99
+ENDDATA             92                                            O0915002  100
+ENDSUBENT           99                                            O091500299999
+ENDENTRY             2                                            O091599999999
+ENDREQUEST           1                                            Z999999999999

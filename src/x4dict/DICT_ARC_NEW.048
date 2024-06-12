@@ -1,0 +1,10 @@
+ TRA 200406 COLD                           Cold      Subthermal neutron spectrum                                           
+ TRA 200406 FAST                           Fast      Fast reactor spectrum                                                 
+ TRA 200406 FISS                           Fiss      Unmoderated fission-neutron spectrum                                  
+ TRA 200406 MAXW                           Maxwl     Maxwellian neutron spectrum                                           
+ TRA                                                  (293 K or reactor temperature)                                       
+ TRA 200406 NDG                            None      No data given                                                         
+ TRA 200406 PILE                           Pile      Reactor spectrum with non-Maxw.energy distr.                          
+ TRA 200406 SPON                           Spont     Spontaneous fission                                                   
+ TRA 200406 TR                             Thrsh     Threshold energy                                                      
+ TRA 200406 TR UP                          Thrsh up  No upper limit specified above the threshold                          

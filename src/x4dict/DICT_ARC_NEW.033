@@ -1,0 +1,81 @@
+ TRA                                          Flag D: For use with the keywords PART-DET, RAD-DET,                         
+ TRA                                           DECAY-DATA, DECAY-MON, EN-SEC                                               
+ TRA                                             (previously EXFOR dictionary 13)                                          
+ TRA                                          Flag 2,3,7: Permitted in REACTION SF2, SF3, SF7                              
+ TRA                                            and corresponding fields in MONITOR and ASSUMED                            
+ TRA                                             (previously EXFOR dictionaries 28, 29, 33)                                
+ TRA                                          ----------------------------------------------------                         
+ TRA 198307 0                                          23  -                                                               
+ TRA                                          No incident particle - spontaneous decay                                     
+ TRA                                          No outgoing particle - property of compound nucleus                          
+ TRA 198307 A                                2004   14D237Alphas                                                           
+ TRA                                          He-4                                                                         
+ TRA 200601 AN                                        D 37Antineutrons                                                     
+ TRA 200611 AP                                      70D237Antiprotons                                                      
+ TRA 198307 AR                                        D   Annihilation radiation                                           
+ TRA 198307 B                                         D   Decay Betas                                                      
+ TRA                                          unspecified whether B+ or B-                                                 
+ TRA 198307 B+                                        D   Decay Beta+                                                      
+ TRA                                          positrons                                                                    
+ TRA 199007 B-                                        D 3 Decay Beta-                                                      
+ TRA 201812 B12                                          7Boron 12                                                         
+ TRA 201301 B8                                           7Boron 8                                                          
+ TRA 201301 BE10                                         7Beryllium 10                                                     
+ TRA 201301 C14                                          7Carbon 14                                                        
+ TRA 201301 CA40                                         7Calcium 40                                                       
+ TRA 198202 D                                1002    8D237Deuterons                                                        
+ TRA 200611 DG                                        D  7Decay Gammas                                                     
+ TRA                                          Used for gammas emitted from metastable states and for                       
+ TRA                                           gammas following a particle-emitting decay (e.g.,                           
+ TRA                                           beta decay)                                                                 
+ TRA 201407 DN                                        D  7Delayed Neutrons                                                 
+ TRA 201412 E                                         D2 7Electrons                                                        
+ TRA                                          Where no more specific code applies, e.g., Auger                             
+ TRA                                           electrons, Compton electrons, etc.                                          
+ TRA                                          =NOTE= This code may have been used more generally in                        
+ TRA                                                 earlier entries.                                                      
+ TRA 198307 EC                                        D   Electron Capture                                                 
+ TRA                                         Used when                                                                     
+ TRA                                         (1) detection of electron capture activity is mentioned                       
+ TRA                                             by the author without further specification of the                        
+ TRA                                             radiation type (e.g., X-ray, Auger electron), or                          
+ TRA                                         (2) the electron capture branching ratio is assumed by                        
+ TRA                                             the author to determine the quantity measured                             
+ TRA 200611 ER                                        D  7Evaporation Residues                                             
+ TRA 200305 ETA                                       D237Eta mesons                                                       
+ TRA 198202 FF                                      30D  7Fission Fragments                                                
+ TRA 198202 G                                   0    2D237Gammas                                                           
+ TRA                                          Use DG for decay gammas                                                      
+ TRA 200302 HE2                              2002   11D 37He-2                                                             
+ TRA 198202 HE3                              2003   12D237He-3                                                             
+ TRA 198202 HE6                              2006   16   7He-6                                                             
+ TRA 200512 HF                                      34D  7Heavy Fragment                                                   
+ TRA 198307 ICE                                       D   Internal-Conversion Electrons                                    
+ TRA 200603 K                                       60D  7Kaons,unspecified                                                
+ TRA 200908 K0                                      60D237Kaons,neutral                                                    
+ TRA 200603 KN                                      61D237Kaons,negative                                                   
+ TRA 200603 KP                                      62D237Kaons,positive                                                   
+ TRA 202112 LCP                                     20D  7Light Charged Particle (Z less than 7)                           
+ TRA 200512 LF                                      32D  7Light Fragment                                                   
+ TRA 201301 LI6                                          7Lithium 6                                                        
+ TRA 201301 LI7                                          7Lithium 7                                                        
+ TRA 202206 LI9                                          7Lithium 9                                                        
+ TRA 198202 N                                0001    4D237Neutrons                                                         
+ TRA                                          Use DN for delayed neutrons                                                  
+ TRA 202206 NE20                                         7Neon 20                                                          
+ TRA 201906 O15                                          7Oxygen 15                                                        
+ TRA 202306 O16                                          7Oxygen 16                                                        
+ TRA 198202 P                                1001    6D237Protons                                                          
+ TRA 200110 PI                                      50D 37Pions,unspecified                                                
+ TRA 199703 PI0                              0000   50D237Pions,neutral                                                    
+ TRA 198408 PIN                             -1000   51D237Pions,negative                                                   
+ TRA 198408 PIP                              1000   52D237Pions,positive                                                   
+ TRA 198307 PN                                        D   Prompt Neutrons                                                  
+ TRA                                          Use N                                                                        
+ OBS 200310 RCL                                     23D  7Recoil Nucleus                                                   
+ TRA 198307 RSD                                     22D  7Residual Nucleus                                                 
+ TRA 198307 SF                                        D   Fragments from Spontaneous Fission                               
+ TRA 198202 T                                1003   10D237Tritons                                                          
+ TRA 202012 U238                                         7Uranium 238                                                      
+ TRA 198307 XR                                        D   X-rays                                                           
+ TRA                                          all types, K, L, M, etc.                                                     

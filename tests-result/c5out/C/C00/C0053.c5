@@ -1,0 +1,146 @@
+#C5.2.3         20240610    144534
+#_______________File generated:             2024-06-10,14:45:34
+#_________________by program x4toc5:        2024-06-10, author:V.Zerkin@iaea.org, IAEA-NDS, 2010-2024
+#_______________Data source:
+#_________________EXFOR file:               2015-02-16
+#_________________EXFOR dictionaries:       1970-01-01 NRDC, V.McLane(NNDC), O.Schwerer(IAEA), N.Otsuka(IAEA)
+#_________________X4TOC4:MF/MT dictionary:  1970-01-01 D.Cullen(IAEA), A.Trkov(IAEA), V.Zerkin(IAEA), Empire-team
+#_________________X4SF:MF/MT/LR dictionary: 1970-01-01 V.Pronyaev(IAEA,IPPE)
+#_______________Copyright: x4toc5 (c) 2010-2024, International Atomic Energy Agency (IAEA)
+#_______________License: 
+#_________________Creative Commons - Attribution 4.0 International (CC BY 4.0)
+#DATASET        C0053004   970701
+#SUBENT         C0053004   970701
+#ENTRY          C0053      20040310
+#TITLE          Elastic proton scattering from 3He and 4He and the
+#+               4He(p,d)3He reaction at 85 MeV
+#AUTHORS        L.G.Votta,P.G.Roos,N.S.Chant,R.Woody
+#AUTHOR1        L.G.Votta+
+#YEAR           1974
+#X4REF1         J,PR/C,10,520,197408
+#REFERENCE1     Jour: Physical Review, Part C, Nuclear Physics, Vol.10, p.520 (1974)
+#DATE           19970701
+#INSTITUTE      1USAMRY
+#METHOD         EDE
+#REACTION       2-HE-4(P,D)2-HE-3,,DA
+#C4Reaction     (P,D),DA
+#ReactionType   DA
+#MF             4
+#MT             104
+#PROJ           1001
+#TARG           2004             
+#TARGET         2004            [ ]             2-HE-4          [ ] 
+#REAC1          P,D
+#PRODUCT        2-HE-3
+#C4ReaCode      (P,D),DA
+#Quantity       Differential c/s with respect to angle
+#DataUnits0     B/SR
+#DataUnits      ?
+#D4REAC         R0#
+#ReaCombi       a
+#C4FOUND        1 
+#C4BEGIN        [ 1001  2004   4 104  E]
+#DATA-HDR       DATA
+#VarFamily      [0 2 4      ]
+#xVariables     2
+#+              Y = Y(X1,X2)
+#ReacRatio      false
+#vReacs         1
+#C5EXT1         132         (4F9.0)     dSys,dStat,dOther,dTot //Absolute fully correlated, uncerrelated, partially correlated and total uncertainties
+#C5EXT2         168         (5F9.0)     dSys,dStat,dOther,dTot,dData //Relative uncertainties (dData/Data) in per-cents
+#C5DATA         27
+#C.M.Flag       0010 E                                         C.M.                             
+#Headers                     EN      dEN     Data    dData      COS     dCOS                  
+#Units                       EV       EV     B/SR     B/SR   NO-DIM   NO-DIM                  
+#Proj Targ M MF MT PXC   Energy  dEnergy     Data   dData Cos/LO/ZP dCos/LO/AP LVL/HL dLVL/HL I78 Refer (YY)              EntrySubP  dSys     dStat   dOther    dTot     dSys%    dStat%  dOther%   dTot%   dData%  
+#---><---->o<-><-->ooo<-------><-------><-------><-------><-------><-------><-------><-------><-><-----------------------><---><->o<-------><-------><-------><-------><-------><-------><-------><-------><------->
+ 1001  2004   4 104  E    8.5E7 150000.0   0.0201    0.0010.9874138                              L.G.Votta,           (74)C0053  4                                0.001                            4.98     4.98
+ 1001  2004   4 104  E    8.5E7 150000.0   0.0128   5.0E-40.9788674                              L.G.Votta,           (74)C0053  4                               5.0E-4                            3.91     3.91
+ 1001  2004   4 104  E    8.5E7 150000.0    0.013   4.0E-40.9777833                              L.G.Votta,           (74)C0053  4                               4.0E-4                            3.08     3.08
+ 1001  2004   4 104  E    8.5E7 150000.0   0.0092   4.8E-40.9668234                              L.G.Votta,           (74)C0053  4                               4.8E-4                            5.22     5.22
+ 1001  2004   4 104  E    8.5E7 150000.0     0.01   3.0E-40.9654726                              L.G.Votta,           (74)C0053  4                               3.0E-4                            3        3
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00585   3.6E-40.9466493                              L.G.Votta,           (74)C0053  4                               3.6E-4                            6.15     6.15
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00327   1.1E-40.9238795                              L.G.Votta,           (74)C0053  4                               1.1E-4                            3.36     3.36
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00257   1.8E-40.8964865                              L.G.Votta,           (74)C0053  4                               1.8E-4                            7        7
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00241   7.0E-50.8668967                              L.G.Votta,           (74)C0053  4                               7.0E-5                            2.90     2.90
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00287   2.2E-40.8329213                              L.G.Votta,           (74)C0053  4                               2.2E-4                            7.67     7.67
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00275   1.8E-40.7954735                              L.G.Votta,           (74)C0053  4                               1.8E-4                            6.55     6.55
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00261   7.0E-50.7132505                              L.G.Votta,           (74)C0053  4                               7.0E-5                            2.68     2.68
+ 1001  2004   4 104  E    8.5E7 150000.0   0.0019   6.0E-50.6197791                              L.G.Votta,           (74)C0053  4                               6.0E-5                            3.16     3.16
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00121   4.0E-50.5195191                              L.G.Votta,           (74)C0053  4                               4.0E-5                            3.31     3.31
+ 1001  2004   4 104  E    8.5E7 150000.0  7.31E-4   3.4E-50.4115144                              L.G.Votta,           (74)C0053  4                               3.4E-5                            4.65     4.65
+ 1001  2004   4 104  E    8.5E7 150000.0  4.22E-4   2.0E-50.3023699                              L.G.Votta,           (74)C0053  4                               2.0E-5                            4.74     4.74
+ 1001  2004   4 104  E    8.5E7 150000.0  2.93E-4   1.3E-5 0.190809                              L.G.Votta,           (74)C0053  4                               1.3E-5                            4.44     4.44
+ 1001  2004   4 104  E    8.5E7 150000.0  1.93E-4   1.0E-50.0784591                              L.G.Votta,           (74)C0053  4                               1.0E-5                            5.18     5.18
+ 1001  2004   4 104  E    8.5E7 150000.0  1.68E-4   9.0E-6-0.029666                              L.G.Votta,           (74)C0053  4                               9.0E-6                            5.36     5.36
+ 1001  2004   4 104  E    8.5E7 150000.0  1.54E-4   8.0E-6-.1339861                              L.G.Votta,           (74)C0053  4                               8.0E-6                            5.19     5.19
+ 1001  2004   4 104  E    8.5E7 150000.0  1.44E-4   7.0E-6-.1856666                              L.G.Votta,           (74)C0053  4                               7.0E-6                            4.86     4.86
+ 1001  2004   4 104  E    8.5E7 150000.0  1.97E-4   9.0E-6-.3272179                              L.G.Votta,           (74)C0053  4                               9.0E-6                            4.57     4.57
+ 1001  2004   4 104  E    8.5E7 150000.0  2.46E-4   9.0E-6-.4146932                              L.G.Votta,           (74)C0053  4                               9.0E-6                            3.66     3.66
+ 1001  2004   4 104  E    8.5E7 150000.0   2.7E-4   1.4E-5-.4939418                              L.G.Votta,           (74)C0053  4                               1.4E-5                            5.19     5.19
+ 1001  2004   4 104  E    8.5E7 150000.0   2.9E-4   1.5E-5-0.564967                              L.G.Votta,           (74)C0053  4                               1.5E-5                            5.17     5.17
+ 1001  2004   4 104  E    8.5E7 150000.0  2.92E-4   1.3E-5-.6306759                              L.G.Votta,           (74)C0053  4                               1.3E-5                            4.45     4.45
+ 1001  2004   4 104  E    8.5E7 150000.0  2.34E-4   1.6E-5-.6870874                              L.G.Votta,           (74)C0053  4                               1.6E-5                            6.84     6.84
+#/C5DATA        0
+#/DATASET       C0053004 
+#DATASET        C0053005   970701
+#SUBENT         C0053005   970701
+#ENTRY          C0053      20040310
+#TITLE          Elastic proton scattering from 3He and 4He and the
+#+               4He(p,d)3He reaction at 85 MeV
+#AUTHORS        L.G.Votta,P.G.Roos,N.S.Chant,R.Woody
+#AUTHOR1        L.G.Votta+
+#YEAR           1974
+#X4REF1         J,PR/C,10,520,197408
+#REFERENCE1     Jour: Physical Review, Part C, Nuclear Physics, Vol.10, p.520 (1974)
+#DATE           19970701
+#INSTITUTE      1USAMRY
+#METHOD         EDE
+#REACTION       2-HE-4(P,D)2-HE-3,,DA
+#C4Reaction     (P,D),DA
+#ReactionType   DA
+#MF             4
+#MT             104
+#PROJ           1001
+#TARG           2004             
+#TARGET         2004            [ ]             2-HE-4          [ ] 
+#REAC1          P,D
+#PRODUCT        2-HE-3
+#C4ReaCode      (P,D),DA
+#Quantity       Differential c/s with respect to angle
+#DataUnits0     B/SR
+#DataUnits      ?
+#D4REAC         R0#
+#ReaCombi       a
+#C4FOUND        1 
+#C4BEGIN        [ 1001  2004   4 104  E]
+#DATA-HDR       DATA
+#VarFamily      [0 2 4      ]
+#xVariables     2
+#+              Y = Y(X1,X2)
+#ReacRatio      false
+#vReacs         1
+#C5EXT1         132         (4F9.0)     dSys,dStat,dOther,dTot //Absolute fully correlated, uncerrelated, partially correlated and total uncertainties
+#C5EXT2         168         (5F9.0)     dSys,dStat,dOther,dTot,dData //Relative uncertainties (dData/Data) in per-cents
+#C5DATA         13
+#C.M.Flag       0010 E                                         C.M.                             
+#Headers                     EN      dEN     Data    dData      COS     dCOS                  
+#Units                       EV       EV     B/SR     B/SR   NO-DIM   NO-DIM                  
+#Proj Targ M MF MT PXC   Energy  dEnergy     Data   dData Cos/LO/ZP dCos/LO/AP LVL/HL dLVL/HL I78 Refer (YY)              EntrySubP  dSys     dStat   dOther    dTot     dSys%    dStat%  dOther%   dTot%   dData%  
+#---><---->o<-><-->ooo<-------><-------><-------><-------><-------><-------><-------><-------><-><-----------------------><---><->o<-------><-------><-------><-------><-------><-------><-------><-------><------->
+ 1001  2004   4 104  E    8.5E7 150000.0  1.64E-4   7.0E-6-.2351421                              L.G.Votta,           (74)C0053  5                               7.0E-6                            4.27     4.27
+ 1001  2004   4 104  E    8.5E7 150000.0  1.83E-4   1.3E-5-.3697467                              L.G.Votta,           (74)C0053  5                               1.3E-5                            7.10     7.10
+ 1001  2004   4 104  E    8.5E7 150000.0  3.19E-4   1.4E-5-.6197791                              L.G.Votta,           (74)C0053  5                               1.4E-5                            4.39     4.39
+ 1001  2004   4 104  E    8.5E7 150000.0  2.54E-4   4.5E-5-.7277727                              L.G.Votta,           (74)C0053  5                               4.5E-5                            17.7     17.7
+ 1001  2004   4 104  E    8.5E7 150000.0  2.23E-4   5.0E-5-0.777146                              L.G.Votta,           (74)C0053  5                               5.0E-5                            22.4     22.4
+ 1001  2004   4 104  E    8.5E7 150000.0  1.61E-4   1.0E-5-.8211492                              L.G.Votta,           (74)C0053  5                               1.0E-5                            6.21     6.21
+ 1001  2004   4 104  E    8.5E7 150000.0   2.3E-4   4.4E-5-.8616292                              L.G.Votta,           (74)C0053  5                               4.4E-5                            19.1     19.1
+ 1001  2004   4 104  E    8.5E7 150000.0  2.09E-4   1.8E-5-.8972584                              L.G.Votta,           (74)C0053  5                               1.8E-5                            8.61     8.61
+ 1001  2004   4 104  E    8.5E7 150000.0  4.08E-4   7.6E-5-.9284858                              L.G.Votta,           (74)C0053  5                               7.6E-5                            18.6     18.6
+ 1001  2004   4 104  E    8.5E7 150000.0  8.25E-4   6.0E-5-.9537169                              L.G.Votta,           (74)C0053  5                               6.0E-5                            7.27     7.27
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00102   8.0E-5-0.969872                              L.G.Votta,           (74)C0053  5                               8.0E-5                            7.84     7.84
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00105   1.2E-4-.9715492                              L.G.Votta,           (74)C0053  5                               1.2E-4                            11.4     11.4
+ 1001  2004   4 104  E    8.5E7 150000.0  0.00161   2.2E-4-.9829353                              L.G.Votta,           (74)C0053  5                               2.2E-4                            13.7     13.7
+#/C5DATA        0
+#/DATASET       C0053005 
+#/C5.2.3        1               2               2               0               40              

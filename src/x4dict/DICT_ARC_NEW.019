@@ -1,0 +1,56 @@
+ TRA 198202 A-BE                           Alpha-Beryllium                                      NEUT                       
+ TRA 201105 AM-BE                          Americium-Beryllium neutron source                   NEUT                       
+ TRA 201301 ARAD                           Annihilation radiation                               PHOT                       
+ TRA 201301 ATOMI                          Atomic beam source                                   PHOT                       
+ TRA 201712 B11-H                          1H(11B,n)                                            NEUT                       
+ TRA 201301 BRST                           Bremsstrahlung                                       PHOT                       
+ TRA 198202 CF252                          Spont.fission of Californium-252                     NEUT                       
+ TRA 201105 CM-BE                          Curium-Beryllium neutron source                      NEUT                       
+ TRA 198202 CM244                          Spont.fission of Curium-244                          NEUT                       
+ TRA 198202 CM246                          Spont.fission of Curium-246                          NEUT                       
+ TRA 198202 CM248                          Spont.fission of Curium-248                          NEUT                       
+ OBS 201301 COMPT                          Compton scattering                                   PHOT                       
+ TRA 202007 COULX                          Coulomb excitation                                   PHOT                       
+ TRA 201712 D-BE                           9Be(d,n)                                             NEUT                       
+ TRA 201712 D-C12                          12C(d,n)                                             NEUT                       
+ TRA 201712 D-C14                          14C(d,n)                                             NEUT                       
+ TRA 201712 D-D                            2H(d,n)                                              NEUT                       
+ TRA 201712 D-LI                           Li(d,n)                                              NEUT                       
+ TRA 201712 D-LI7                          7Li(d,n)                                             NEUT                       
+ TRA 201712 D-N14                          14N(d,n)                                             NEUT                       
+ TRA 201712 D-N15                          15N(d,n)                                             NEUT                       
+ TRA 201712 D-T                            3H(d,n)                                              NEUT                       
+ TRA 198202 EVAP                           Evaporation neutrons                                 NEUT                       
+ TRA 198202 EXPLO                          Nuclear explosive device                             NEUT                       
+ TRA 201806 FRAGM                          Fragmentation                                                                   
+ TRA 201307 HARD                           Hardened                                             PHOT                       
+ TRA 202012 ISOL                           Online isotope separation                                                       
+ TRA 201307 KINDT                          Kinematically determined                             PHOT                       
+ TRA 201301 LAMB                           Lamb-shift source                                    PHOT                       
+ OBS 201301 LASER                          Laser scattering                                     PHOT                       
+ TRA 201301 LCS                            Laser Compton Scattered Photons                      PHOT                       
+ TRA 201301 MPH                            Monoenergetic photons                                PHOT=                      
+ TRA 201712 P-BE                           9Be(p,n)                                             NEUT                       
+ TRA 201712 P-D                            2H(p,n)                                              NEUT                       
+ TRA 201712 P-LI7                          7Li(p,n)                                             NEUT                       
+ TRA 201712 P-N15                          15N(p,n)                                             NEUT                       
+ TRA 201712 P-T                            3H(p,n)                                              NEUT                       
+ TRA 198202 PHOTO                          Photo-neutron                                        NEUT                       
+ TRA 201105 PO-BE                          Polonium-Beryllium neutron source                    NEUT                       
+ TRA 199703 POLIS                          Polarized ion source                                                            
+ TRA 199801 POLNS                          Polarized neutron source                             NEUT,                      
+ TRA 201307 POLPS                          Polarized photon source                              PHOT                       
+ TRA 198307 POLTR                          Polarized target                                                                
+ TRA 201105 PU-BE                          Plutonium-Beryllium neutron source                   NEUT                       
+ TRA 198202 PU240                          Spont.fission of Plutonium-240                       NEUT                       
+ TRA 200302 PU242                          Spont.fission of Plutonium-242                       NEUT                       
+ TRA 201301 QMPH                           Quasi-monoenergetic photons                          PHOT                       
+ TRA 201105 RA-BE                          Radium-Beryllium neutron source                      NEUT                       
+ TRA 198202 REAC                           Reactor                                              NEUT                       
+ TRA 201105 RN-BE                          Radon-Beryllium neutron source                       NEUT                       
+ TRA 199306 SPALL                          Spallation                                                                      
+ TRA 201301 TAGD                           Electron tagged                                      PHOT                       
+ TRA 201105 TH-BE                          Thorium-Beryllium neutron source                     NEUT                       
+ TRA 198202 THCOL                          Thermal column                                       NEUT                       
+ TRA 201301 THRDT                          Determined by threshold technique                    PHOT                       
+ TRA 201301 VPH                            Virtual photons                                      PHOT                       

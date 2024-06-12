@@ -1,0 +1,43 @@
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+ Running: 2024-06-10,14:45:40 on zerkin-VirtualBox
+	-i:	 #inverse selected reactions
+	-o:      tst-inv.x4.c5i #output
+	-rr      #convert Rutherford-Ratio to B/SR
+	-qe      #replace Q-Value by E-Level (for partial reactions)
+
+===============================================================================
+Translation Log
+===============================================================================
+DATASET   MF  MT   POINTS REFERENCE                 REACTION
+===============================================================================
+30092002  3   801     406 A.S.Divatia,         (66) 8-O-16(N,A)6-C-13,PAR,SIG,,,DERIV
+	Revised column:DATA-ERR,PER-CENT to ERR-SYS,PER-CENT
+A0613003  3   4        55 H.W.DROTLEFF,        (93) 6-C-13(A,N)8-O-16,,SIG
+	CONVERTED INC-ENERGY C.M. TO LAB: EN_LAB=EN_CM*1.3078129
+	DATA converted to inverse reaction MFMT=3:107 8-O-16(N,A)6-C-13,,SIG
+	    E1=(E0*0.7646353 + 2.2169557)/0.9406795 MeV
+	    SIG1=SIG0*E0/E1*8.45732
+	      CALC.ENE. 1:(FROM 0.36488 TO 2.65335) 55:(FROM 1.3889 TO 3.48573)
+	      CALC.SIG. 1:(FROM 6.1E-11 TO 2.1994-11) 55:(FROM 0.0015 TO 1.5671-3)
+F0786004  3   4       679 S.Harissopulos,      (05) 6-C-13(A,N)8-O-16,,SIG
+	DATA converted to inverse reaction MFMT=3:107 8-O-16(N,A)6-C-13,,SIG
+	    E1=(E0*0.7646353 + 2.2169557)/0.9406795 MeV
+	    SIG1=SIG0*E0/E1*8.45732
+	      CALC.ENE. 1:(FROM 0.767 TO 2.98022) 679:(FROM 7.962 TO 8.8287)
+	      CALC.SIG. 1:(FROM 2.6E-6 TO 1.7545-6) 679:(FROM 0.458 TO 1.08296)
+===============================================================================
+Translation Summary
+===============================================================================
+EXFOR VERSION           2024-05-29
+ENTRY                   3
+SUBENT                  3
+DATASETS                3
+DATA POINTS             1140
+TRANSLATED ENTRY        3           100%
+TRANSLATED SUBENT       3           100%
+TRANSLATED DATASETS     3           100%
+TRANSLATED DATA POINTS  1140        100%
+===============================================================================
+ Program finished: 2024-06-10,14:45:41

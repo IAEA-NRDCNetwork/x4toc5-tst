@@ -1,0 +1,374 @@
+[H[2J[3J
+
+____Next test____________________________________________________________
+
+Display help-info
+Press ENTER to continue ... [H[2J[3JDisplay help-info
+
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+
+ Run:  $ java [flags] x4toc5 file.x4 [options]
+
+ Options:
+   -o:file     output file, default: file.x4.c5
+   -dict:dir   directory with EXFOR Dictionaries, default: -dict:x4dict/
+   -dlvl:dir   directory with levels,             default: -dlvl:levels/
+   -split:dir  output C5 file for every Entry to a file in directory: 1/123/12345.c5
+   -c5         output format: C5 (default)
+   -c5m        output format: C5M (C5+correlation matrix)
+   -c4         output format: C4
+   -i          recalculate data to inverse reactions, e.g.:
+                  6-C-13(A,N)8-O-16,,SIG --> 8-O-16(N,A)6-C-13,,SIG
+                  2-HE-4(P,D)2-HE-3,,DA  --> 2-HE-3(D,P)2-HE-4,,DA
+   -i:file     inverse data for the reactions listed in the file
+   -cm2lab     convert EN-CM, ANG-CM, DATA-CM from C.M. to Lab. (MF4 only)
+   -norr       do not convert DATA: Rutherford-Ratio to B/SR
+   -noqe       do not replace Q-Value by E-Level for partial XS
+   -mt51       replace MT by MT+iLevel (for MT:51,601,651,701,751,801)
+   -nomt0      do not process Datasets with unknown MT
+   -sort       sort data by independent variables (EN, AN, E2)
+   -h[elp]     print this text
+   -ps         show process
+   -debug      set debug mode
+ Java flags:
+   -Xmx<size>  set maximum Java heap size
+   -cp <paths> list of directories, JAR archives to search for class files
+   -jar <path> file with binaries (archive of classes - compiled java codes)
+
+ Examples:
+   $ java x4toc5 myfile.x4
+   $ java x4toc5 x4.x4 -dict:x4dict/
+   $ java -Xmx400M -jar x4toc5.jar x4.x4 -i -o:x4.x4.c5i
+
+
+____Next test____________________________________________________________
+
+Convert x4 to c5 with default options
+Press ENTER to continue ... [H[2J[3JConvert x4 to c5 with default options
+
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+ Running: 2024-06-10,14:45:34 on zerkin-VirtualBox
+	-rr      #convert Rutherford-Ratio to B/SR
+	-qe      #replace Q-Value by E-Level (for partial reactions)
+
+===============================================================================
+Translation Log
+===============================================================================
+DATASET   MF  MT   POINTS REFERENCE                 REACTION
+===============================================================================
+C0053004  4   104      27 L.G.Votta,           (74) 2-HE-4(P,D)2-HE-3,,DA
+C0053005  4   104      13 L.G.Votta,           (74) 2-HE-4(P,D)2-HE-3,,DA
+O0854002  4   2        59 A.Nurmela,           (98) 2-HE-4(P,EL)2-HE-4,,DA,,RTH
+	Converted Rutherford ratio to XS: DA(RTH) to DA(B/SR). Algorithm=1
+O0915002  4   2        90 A.Nurmela,           (97) 2-HE-4(P,EL)2-HE-4,,DA
+===============================================================================
+Translation Summary
+===============================================================================
+ENTRY                   3
+SUBENT                  4
+DATASETS                4
+DATA POINTS             189
+TRANSLATED ENTRY        3           100%
+TRANSLATED SUBENT       4           100%
+TRANSLATED DATASETS     4           100%
+TRANSLATED DATA POINTS  189         100%
+===============================================================================
+ Program finished: 2024-06-10,14:45:34
+
+
+____Next test____________________________________________________________
+
+Convert x4 to c5, split output by Entry
+Press ENTER to continue ... [H[2J[3JConvert x4 to c5, split output by Entry
+
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+ Running: 2024-06-10,14:45:34 on zerkin-VirtualBox
+	-split:  c5out #outdir
+	-rr      #convert Rutherford-Ratio to B/SR
+	-qe      #replace Q-Value by E-Level (for partial reactions)
+
+===============================================================================
+Translation Log
+===============================================================================
+DATASET   MF  MT   POINTS REFERENCE                 REACTION
+===============================================================================
+C0053004  4   104      27 L.G.Votta,           (74) 2-HE-4(P,D)2-HE-3,,DA
+C0053005  4   104      13 L.G.Votta,           (74) 2-HE-4(P,D)2-HE-3,,DA
+O0854002  4   2        59 A.Nurmela,           (98) 2-HE-4(P,EL)2-HE-4,,DA,,RTH
+	Converted Rutherford ratio to XS: DA(RTH) to DA(B/SR). Algorithm=1
+O0915002  4   2        90 A.Nurmela,           (97) 2-HE-4(P,EL)2-HE-4,,DA
+===============================================================================
+Translation Summary
+===============================================================================
+ENTRY                   3
+SUBENT                  4
+DATASETS                4
+DATA POINTS             189
+TRANSLATED ENTRY        3           100%
+TRANSLATED SUBENT       4           100%
+TRANSLATED DATASETS     4           100%
+TRANSLATED DATA POINTS  189         100%
+===============================================================================
+ Program finished: 2024-06-10,14:45:35
+
+
+____Next test____________________________________________________________
+
+Convert x4 to c4
+Press ENTER to continue ... [H[2J[3JConvert x4 to c4
+
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+ Running: 2024-06-10,14:45:35 on zerkin-VirtualBox
+	-o:      x4.x4.c4 #output
+	-rr      #convert Rutherford-Ratio to B/SR
+	-qe      #replace Q-Value by E-Level (for partial reactions)
+
+===============================================================================
+Translation Log
+===============================================================================
+DATASET   MF  MT   POINTS REFERENCE                 REACTION
+===============================================================================
+C0053004  4   104      27 L.G.Votta,           (74) 2-HE-4(P,D)2-HE-3,,DA
+C0053005  4   104      13 L.G.Votta,           (74) 2-HE-4(P,D)2-HE-3,,DA
+O0854002  4   2        59 A.Nurmela,           (98) 2-HE-4(P,EL)2-HE-4,,DA,,RTH
+	Converted Rutherford ratio to XS: DA(RTH) to DA(B/SR). Algorithm=1
+O0915002  4   2        90 A.Nurmela,           (97) 2-HE-4(P,EL)2-HE-4,,DA
+===============================================================================
+Translation Summary
+===============================================================================
+ENTRY                   3
+SUBENT                  4
+DATASETS                4
+DATA POINTS             189
+TRANSLATED ENTRY        3           100%
+TRANSLATED SUBENT       4           100%
+TRANSLATED DATASETS     4           100%
+TRANSLATED DATA POINTS  189         100%
+===============================================================================
+ Program finished: 2024-06-10,14:45:36
+
+
+____Next test____________________________________________________________
+
+Inverse reaction data
+Press ENTER to continue ... [H[2J[3JInverse reaction data
+
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+ Running: 2024-06-10,14:45:36 on zerkin-VirtualBox
+	-i	 #inverse reactions
+	-o:      x4.x4.c5i #output
+	-rr      #convert Rutherford-Ratio to B/SR
+	-qe      #replace Q-Value by E-Level (for partial reactions)
+
+===============================================================================
+Translation Log
+===============================================================================
+DATASET   MF  MT   POINTS REFERENCE                 REACTION
+===============================================================================
+C0053004  4   104      27 L.G.Votta,           (74) 2-HE-4(P,D)2-HE-3,,DA
+	Conversion from C.M. to Lab: successful [C0053004 ]
+	Converted Angle C.M. to LAB 1:(9.1 TO 6.2) 27:(133.4 TO 105.9)
+	DATA converted to inverse reaction MFMT=4:103 2-HE-3(D,P)2-HE-4,,DA
+	    E1=(E0*0.7988536 - 18.350431)/0.59959286 MeV
+	    A1:(A0->A0CM)->(A1CM=A0CM)->(A1CM->A1)
+	    SIG1=SIG0*E0/E1*0.19738925
+	      CALC.ENE. 1:(FROM 85. TO 82.643)
+	      CALC.ANG. 1:(FROM 6.2 TO 6.8) 27:(FROM 105.9 TO 114.9)
+	      CALC.SIG. 1:(FROM 0.0201 TO 6.1209-3) 27:(FROM 2.34E-4 TO 7.1258-5)
+C0053005  4   104      13 L.G.Votta,           (74) 2-HE-4(P,D)2-HE-3,,DA
+	Conversion from C.M. to Lab: successful [C0053005 ]
+	Converted Angle C.M. to LAB 1:(103.6 TO 75.9) 13:(169.4 TO 159.9)
+	DATA converted to inverse reaction MFMT=4:103 2-HE-3(D,P)2-HE-4,,DA
+	    E1=(E0*0.7988536 - 18.350431)/0.59959286 MeV
+	    A1:(A0->A0CM)->(A1CM=A0CM)->(A1CM->A1)
+	    SIG1=SIG0*E0/E1*0.19738925
+	      CALC.ENE. 1:(FROM 85. TO 82.643)
+	      CALC.ANG. 1:(FROM 75.9 TO 83.3) 13:(FROM 159.9 TO 163.8)
+	      CALC.SIG. 1:(FROM 1.64E-4 TO 4.9942-5) 13:(FROM 0.00161 TO 4.9028-4)
+O0854002  INVERT REACTION NOT POSSIBLE FOR 2-HE-4(P,EL)2-HE-4,,DA,,RTH
+O0915002  INVERT REACTION NOT POSSIBLE FOR 2-HE-4(P,EL)2-HE-4,,DA
+===============================================================================
+Translation Summary
+===============================================================================
+ENTRY                   3
+SUBENT                  4
+DATASETS                4
+DATA POINTS             189
+TRANSLATED ENTRY        1           33.3%
+TRANSLATED SUBENT       2           50%
+TRANSLATED DATASETS     2           50%
+TRANSLATED DATA POINTS  40          21.2%
+===============================================================================
+ Program finished: 2024-06-10,14:45:37
+
+
+____Next test____________________________________________________________
+
+Generate correlation matrix
+Press ENTER to continue ... [H[2J[3JGenerate correlation matrix
+
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+ Running: 2024-06-10,14:45:37 on zerkin-VirtualBox
+	-C5M	 #Generate correlation matrix
+	-rr      #convert Rutherford-Ratio to B/SR
+	-qe      #replace Q-Value by E-Level (for partial reactions)
+
+===============================================================================
+Translation Log
+===============================================================================
+DATASET   MF  MT   POINTS REFERENCE                 REACTION
+===============================================================================
+23114002  3   16        9 C.Sage,              (10) 95-AM-241(N,2N)95-AM-240,,SIG
+14271006  203 18      600 F.Tovesson,          (10) (94-PU-241(N,F),,SIG)/(92-U-235(N,F),,SIG)
+===============================================================================
+Translation Summary
+===============================================================================
+ENTRY                   2
+SUBENT                  2
+DATASETS                2
+DATA POINTS             609
+TRANSLATED ENTRY        2           100%
+TRANSLATED SUBENT       2           100%
+TRANSLATED DATASETS     2           100%
+TRANSLATED DATA POINTS  609         100%
+===============================================================================
+ Program finished: 2024-06-10,14:45:38
+
+
+____Next test____________________________________________________________
+
+Replace MT by MT+iLevel from RIPL-Levels for partial reactions
+Press ENTER to continue ... [H[2J[3JReplace MT by MT+iLevel from RIPL-Levels for partial reactions
+
+---Note. Option -mt51 require levels/
+	$ unzip levels.zip
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+ Running: 2024-06-10,14:45:38 on zerkin-VirtualBox
+	-rr      #convert Rutherford-Ratio to B/SR
+	-qe      #replace Q-Value by E-Level (for partial reactions)
+	-mt51    #replace MT by MT+iLevel (for MT:51,601,651,701,751,801)
+
+===============================================================================
+Translation Log
+===============================================================================
+DATASET   MF  MT   POINTS REFERENCE                 REACTION
+===============================================================================
+10034065  3   51      163 J.MEADOWS,           (71) 67-HO-165(N,INL)67-HO-165,PAR,SIG
+	SET LVL=Qvalue.GS-Qvalue;  #Qvalue.GS=0.0 (eV)
+	RESET MT51 to MT90: ZAP=67165 iLvl=49  eLvl=1140000.0 eV
+	RESET MT51 to MT90: ZAP=67165 iLvl=45  eLvl=1094000.0 eV
+	RESET MT51 to MT87: ZAP=67165 iLvl=37  eLvl=995000.0 eV
+	RESET MT51 to MT78: ZAP=67165 iLvl=28  eLvl=827000.0 eV
+	RESET MT51 to MT71: ZAP=67165 iLvl=21  eLvl=715000.0 eV
+	RESET MT51 to MT63: ZAP=67165 iLvl=13  eLvl=590000.0 eV
+	RESET MT51 to MT60: ZAP=67165 iLvl=10  eLvl=515000.0 eV
+	RESET MT51 to MT57: ZAP=67165 iLvl=7   eLvl=449000.0 eV
+	RESET MT51 to MT54: ZAP=67165 iLvl=4   eLvl=362000.0 eV
+	RESET MT51 to MT52: ZAP=67165 iLvl=2   eLvl=210000.0 eV
+	RESET MT51 to MT51: ZAP=67165 iLvl=1   eLvl=95000.0 eV
+===============================================================================
+Translation Summary
+===============================================================================
+ENTRY                   1
+SUBENT                  1
+DATASETS                1
+DATA POINTS             163
+TRANSLATED ENTRY        1           100%
+TRANSLATED SUBENT       1           100%
+TRANSLATED DATASETS     1           100%
+TRANSLATED DATA POINTS  163         100%
+===============================================================================
+ Program finished: 2024-06-10,14:45:39
+
+
+____Next test____________________________________________________________
+
+Keep Q-Value, i.e. do not replace by Energy-Level
+Press ENTER to continue ... [H[2J[3JKeep Q-Value, i.e. do not replace by Energy-Level
+
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+ Running: 2024-06-10,14:45:39 on zerkin-VirtualBox
+	-noqe    #do not replace Q-Value by E-Level for partial XS
+	-o:      10034065.x4.c5-Qval #output
+	-rr      #convert Rutherford-Ratio to B/SR
+
+===============================================================================
+Translation Log
+===============================================================================
+DATASET   MF  MT   POINTS REFERENCE                 REACTION
+===============================================================================
+10034065  3   51      163 J.MEADOWS,           (71) 67-HO-165(N,INL)67-HO-165,PAR,SIG
+===============================================================================
+Translation Summary
+===============================================================================
+ENTRY                   1
+SUBENT                  1
+DATASETS                1
+DATA POINTS             163
+TRANSLATED ENTRY        1           100%
+TRANSLATED SUBENT       1           100%
+TRANSLATED DATASETS     1           100%
+TRANSLATED DATA POINTS  163         100%
+===============================================================================
+ Program finished: 2024-06-10,14:45:39
+
+
+____Next test____________________________________________________________
+
+Inverse reaction data for selected reaction
+Press ENTER to continue ... [H[2J[3JInverse reaction data for selected reaction
+
+---See terminal output in the file: [tst-inv.x4.tto] ---
+
+
+____Next test____________________________________________________________
+
+Convert C.M. to Lab system
+Press ENTER to continue ... [H[2J[3JConvert C.M. to Lab system
+
+ Translate EXFOR to C5 computational format
+ Program x4toc5, ver. 2024-06-10
+ V.Zerkin, IAEA, Vienna, 2010-2024
+ Running: 2024-06-10,14:45:41 on zerkin-VirtualBox
+	-cm2lab  #convert C.M. to Lab.
+	-rr      #convert Rutherford-Ratio to B/SR
+	-qe      #replace Q-Value by E-Level (for partial reactions)
+
+===============================================================================
+Translation Log
+===============================================================================
+DATASET   MF  MT   POINTS REFERENCE                 REACTION
+===============================================================================
+20268002  4   2        16 M.HYAKUTAKE,         (68) 3-LI-6(N,EL)3-LI-6,,DA
+	Conversion from C.M. to Lab: successful [20268002 ]
+	Converted Angle C.M. to LAB 1:(166.3 TO 163.6) 16:(23.3 TO 20.)
+===============================================================================
+Translation Summary
+===============================================================================
+ENTRY                   1
+SUBENT                  1
+DATASETS                1
+DATA POINTS             16
+TRANSLATED ENTRY        1           100%
+TRANSLATED SUBENT       1           100%
+TRANSLATED DATASETS     1           100%
+TRANSLATED DATA POINTS  16          100%
+===============================================================================
+ Program finished: 2024-06-10,14:45:41
+---Finished---

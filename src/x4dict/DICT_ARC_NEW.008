@@ -1,0 +1,120 @@
+ INT 198903   0                            NNneutron                                                                       
+ TRA 198202   1                            H Hydrogen                                                                      
+ TRA 198202   2                            HEHelium                                                                        
+ TRA 198202   3                            LILithium                                                                       
+ TRA 200902   4                            BEBeryllium                                                                     
+ TRA 198202   5                            B Boron                                                                         
+ TRA 198202   6                            C Carbon                                                                        
+ TRA 198202   7                            N Nitrogen                                                                      
+ TRA 198202   8                            O Oxygen                                                                        
+ TRA 198202   9                            F Fluorine                                                                      
+ TRA 198202  10                            NENeon                                                                          
+ TRA 198202  11                            NASodium                                                                        
+ TRA 198202  12                            MGMagnesium                                                                     
+ TRA 198202  13                            ALAluminium                                                                     
+ TRA 198202  14                            SISilicon                                                                       
+ TRA 198202  15                            P Phosphorus                                                                    
+ TRA 198202  16                            S Sulphur                                                                       
+ TRA 198202  17                            CLChlorine                                                                      
+ TRA 198202  18                            ARArgon                                                                         
+ TRA 198202  19                            K Potassium                                                                     
+ TRA 198202  20                            CACalcium                                                                       
+ TRA 198202  21                            SCScandium                                                                      
+ TRA 198202  22                            TITitanium                                                                      
+ TRA 198202  23                            V Vanadium                                                                      
+ TRA 198202  24                            CRChromium                                                                      
+ TRA 198202  25                            MNManganese                                                                     
+ TRA 198202  26                            FEIron                                                                          
+ TRA 198202  27                            COCobalt                                                                        
+ TRA 198202  28                            NINickel                                                                        
+ TRA 198202  29                            CUCopper                                                                        
+ TRA 198202  30                            ZNZinc                                                                          
+ TRA 198202  31                            GAGallium                                                                       
+ TRA 198202  32                            GEGermanium                                                                     
+ TRA 198202  33                            ASArsenic                                                                       
+ TRA 198202  34                            SESelenium                                                                      
+ TRA 198202  35                            BRBromine                                                                       
+ TRA 198202  36                            KRKrypton                                                                       
+ TRA 198202  37                            RBRubidium                                                                      
+ TRA 198202  38                            SRStrontium                                                                     
+ TRA 198202  39                            Y Yttrium                                                                       
+ TRA 198202  40                            ZRZirconium                                                                     
+ TRA 198202  41                            NBNiobium                                                                       
+ TRA 198202  42                            MOMolybdenum                                                                    
+ TRA 198202  43                            TCTechnetium                                                                    
+ TRA 198202  44                            RURuthenium                                                                     
+ TRA 198202  45                            RHRhodium                                                                       
+ TRA 198202  46                            PDPalladium                                                                     
+ TRA 198202  47                            AGSilver                                                                        
+ TRA 198202  48                            CDCadmium                                                                       
+ TRA 198202  49                            INIndium                                                                        
+ TRA 198202  50                            SNTin                                                                           
+ TRA 198202  51                            SBAntimony                                                                      
+ TRA 198202  52                            TETellurium                                                                     
+ TRA 198202  53                            I Iodine                                                                        
+ TRA 198202  54                            XEXenon                                                                         
+ TRA 198202  55                            CSCesium                                                                        
+ TRA 198202  56                            BABarium                                                                        
+ TRA 198202  57                            LALanthanum                                                                     
+ TRA 198202  58                            CECerium                                                                        
+ TRA 200902  59                            PRPraseodymium                                                                  
+ TRA 198202  60                            NDNeodymium                                                                     
+ TRA 198202  61                            PMPromethium                                                                    
+ TRA 198202  62                            SMSamarium                                                                      
+ TRA 198202  63                            EUEuropium                                                                      
+ TRA 198202  64                            GDGadolinium                                                                    
+ TRA 198202  65                            TBTerbium                                                                       
+ TRA 198202  66                            DYDysprosium                                                                    
+ TRA 198202  67                            HOHolmium                                                                       
+ TRA 198202  68                            ERErbium                                                                        
+ TRA 198202  69                            TMThulium                                                                       
+ TRA 198202  70                            YBYtterbium                                                                     
+ TRA 198202  71                            LULutetium                                                                      
+ TRA 198202  72                            HFHafnium                                                                       
+ TRA 198202  73                            TATantalum                                                                      
+ TRA 198202  74                            W Tungsten                                                                      
+ TRA 198202  75                            RERhenium                                                                       
+ TRA 198202  76                            OSOsmium                                                                        
+ TRA 200902  77                            IRIridium                                                                       
+ TRA 198202  78                            PTPlatinum                                                                      
+ TRA 198202  79                            AUGold                                                                          
+ TRA 198202  80                            HGMercury                                                                       
+ TRA 198202  81                            TLThallium                                                                      
+ TRA 198202  82                            PBLead                                                                          
+ TRA 198202  83                            BIBismuth                                                                       
+ TRA 198202  84                            POPolonium                                                                      
+ TRA 198202  85                            ATAstatine                                                                      
+ TRA 198202  86                            RNRadon                                                                         
+ TRA 198202  87                            FRFrancium                                                                      
+ TRA 198202  88                            RARadium                                                                        
+ TRA 198202  89                            ACActinium                                                                      
+ TRA 198202  90                            THThorium                                                                       
+ TRA 198202  91                            PAProtactinium                                                                  
+ TRA 198202  92                            U Uranium                                                                       
+ TRA 198202  93                            NPNeptunium                                                                     
+ TRA 198202  94                            PUPlutonium                                                                     
+ TRA 198202  95                            AMAmericium                                                                     
+ TRA 198202  96                            CMCurium                                                                        
+ TRA 199801  97                            BKBerkelium                                                                     
+ TRA 198202  98                            CFCalifornium                                                                   
+ TRA 198202  99                            ESEinsteinium                                                                   
+ TRA 198202 100                            FMFermium                                                                       
+ TRA 198202 101                            MDMendelevium                                                                   
+ TRA 198202 102                            NONobelium                                                                      
+ TRA 198202 103                            LRLawrencium                                                                    
+ TRA 199801 104                            RFRutherfordium                                                                 
+ TRA 199801 105                            DBDubnium                                                                       
+ TRA 199801 106                            SGSeaborgium                                                                    
+ TRA 199801 107                            BHBohrium                                                                       
+ TRA 199801 108                            HSHassium                                                                       
+ TRA 199801 109                            MTMeitnerium                                                                    
+ TRA 200310 110                            DSDarmstadtium                                                                  
+ TRA 200512 111                            RGRoentgenium                                                                   
+ TRA 201003 112                            CNCopernicium                                                                   
+ TRA 201704 113                            NHNihonium                                                                      
+ TRA 201301 114                            FLFlerovium                                                                     
+ TRA 201704 115                            MCMoscovium                                                                     
+ TRA 201301 116                            LVLivermorium                                                                   
+ TRA 201704 117                            TSTennessine                                                                    
+ TRA 201704 118                            OGOganesson                                                                     
+ TRA                                        (Others to be added when they occur)                                           

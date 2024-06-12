@@ -1,0 +1,45 @@
+ TRA 201003 ALF                            CS     Alpha                                                                    
+ TRA 202106 AMP                            L      Scattering length                                                        
+ TRA 201912 CHG                            ZAP    Fragment charge                                                          
+ TRA 200205 CS                             CS     Cross section                                                            
+ OBS 200509 CSN                            CSP    Differential with respect to number of particles                         
+ TRA 200205 CSP                            CSP    Partial cross section                                                    
+ TRA 200205 CST                            CST    Temperature dependent cross section                                      
+ TRA 200205 D3A                            DAE    Triple differential dAngle1/dAngle2/dE'                                  
+ TRA 200205 D3E                            DAE    Triple differential dAngle/dE1'/dE2'                                     
+ TRA 200205 D4A                            DAE    Quadruple diff. dAng1/dAng2/dE1'/dE2'                                    
+ TRA 200205 DA                             DA     Differential d/dAngle                                                    
+ TRA 200205 DAA                            DA     Double differential dAngle1/dAngle2                                      
+ TRA 200205 DAE                            DAE    Double differential dAngle/dE'                                           
+ TRA 200205 DAP                            DAP    Partial differential d/dAngle                                            
+ TRA 200205 DAT                            DA     Temperature-dependent Legendre coefficient                               
+ TRA 200205 DE                             DE     Differential d/dE'                                                       
+ TRA 200205 DEP                            DEP    Energy spectrum for specific group                                       
+ TRA 200406 DP                             DE     Diff. by linear momentum of outgoing part.                               
+ TRA 200406 DT                             DA     Diff. by 4-momentum transfer squared                                     
+ TRA 201912 ETA                            NU     Eta                                                                      
+ TRA 200503 EVL                                   Evaluation                                                               
+ OBS 200205 FRS                            FY     Fragment spectra                                                         
+ TRA 200205 FY                             FY     Fission product yield                                                    
+ TRA 200205 INT                            INT    Cross section integral over incident energy                              
+ TRA 200205 KE                             E      Kinetic energy                                                           
+ TRA 200205 KER                            SQ     Kerma factor                                                             
+ TRA 201912 MAS                            ZAP    Fragment mass                                                            
+ TRA 201912 MFQ                            MFQ    Differential fission neutron multiplicity                                
+ TRA 200205 MLT                            MLT    Multiplicity                                                             
+ TRA 200205 NQ                             NQ     Nuclear quantity                                                         
+ TRA 201912 NU                             NU     Nu                                                                       
+ TRA 201912 NUD                            NU     Nu delayed                                                               
+ OBS 201912 NUF                            MFQ    Fragment neutrons                                                        
+ TRA 200205 POD                            POL    Differential polarization                                                
+ TRA 200205 POL                            POL    Polarization                                                             
+ TRA 200611 POT                            CS     Potential scattering                                                     
+ TRA 200205 PY                             PY     Product yield (other than fission)                                       
+ TRA 200205 RI                             RI     Resonance integral                                                       
+ TRA 200205 RP                             RP     Resonance parameter                                                      
+ TRA 200205 RR                             RR     Reaction rate                                                            
+ TRA 200406 SPC                            SP     Gamma spectrum                                                           
+ TRA 200205 TSL                            CS     Thermal scattering                                                       
+ TRA 200205 TT                             TT     Thick target yield                                                       
+ TRA 200205 TTD                            TTD    Differential thick target yield, d/dAngle                                
+ TRA 200205 TTP                            TTP    Partial thick target yield                                               

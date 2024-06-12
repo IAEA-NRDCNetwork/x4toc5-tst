@@ -1,0 +1,12 @@
+ TRA 198307 A                              Altered        Important alterations                                            
+ TRA 200902 C                              Compiled       Compiled at the data center                                      
+ TRA 198307 D                              Deleted        Entry or subentry deleted                                        
+ TRA                                        This must be followed by free text justifying the                              
+ TRA                                        deletion.                                                                      
+ TRA 198307 E                              Transmitted    Transmitted to other data centers                                
+ TRA 201105 L                              Entered        Entered into other data library                                  
+ TRA                                        Entered to NEUDADA, DASTAR etc.                                                
+ TRA 200603 R                              Received       Data received at the data center                                 
+ TRA 200805 S                              Restored       Data restored from archive                                       
+ TRA 198307 T                              Converted      Converted from previous compilation                              
+ TRA 198307 U                              Altered        Unimportant alterations                                          

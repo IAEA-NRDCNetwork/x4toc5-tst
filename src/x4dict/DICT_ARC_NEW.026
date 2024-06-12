@@ -1,0 +1,59 @@
+ INT 199411 *                              24    data value                                                                
+ INT 199411 *A                             24    assumed value                                                             
+ INT 199411 *S                             24    standard value                                                            
+ INT 199411 1/A                              25361/solid angle                                                             
+ INT 199411 1/E                              25361/energy                                                                  
+ INT 199610 1/L                            2425  1/length                                                                  
+ INT 201912 1/T                            2425  1/time                                                                    
+ INT 199411 A                              242536angle                                                                     
+ INT 199411 B                                2536cross section                                                             
+ INT 199411 B*E                              2536cross section * energy                                                    
+ INT 199411 B*V                              2536cross section * velocity                                                  
+ INT 199411 BE2                              2536cross section * energy-squared                                            
+ INT 199801 BEDA                             2536cross section * energy per solid angle                                    
+ INT 199411 BERE                             2536cross section * energy * sqrt energy                                      
+ INT 199411 BRE                              2536cross section * sqrt-energy                                               
+ INT 199411 D3                               2536cross section per energy-squared                                          
+ INT 199411 D3A                              2536cross section per solid angle-sq per energy                               
+ INT 200406 D4                               2536cross section per 4-mom.transfer squared                                  
+ INT 200406 D4A                              2536cross section per sol. angle-sq. per energy-sq.                           
+ INT 199411 DA                               2536cross section per solid angle                                             
+ INT 199411 DA2                              2536cross section per solid angle-squared                                     
+ INT 200908 DA2P                             2536cross section per sol. angle-sq. per lin. momentum                        
+ INT 199411 DAE                              2536cross section per solid angle per energy                                  
+ INT 200204 DAP                              2536cross section per solid angle per linear momentum                         
+ INT 199411 DE                               2536cross section per energy                                                  
+ INT 200111 DP                               2536cross section per linear momentum                                         
+ INT 199411 E                              242536energy                                                                    
+ INT 199411 E/C                            2425  energy per velocity of light                                              
+ INT 199411 E2                               2536energy-squared                                                            
+ INT 200805 EC2                            2425  4-momentum squared                                                        
+ INT 199411 FY                               2536per-cent per fission                                                      
+ INT 200908 FYAE                             2536per-cent per fission per solid angle per energy                           
+ INT 200908 FYDA                             2536per-cent per fission per solid angle                                      
+ INT 199411 FYDE                             2536per-cent per fission per energy                                           
+ INT 201706 FYET                             2536per-cent per fission per energy per sqrt energy                           
+ INT 199411 KER                              2536decay                                                                     
+ INT 201912 L                              242536length                                                                    
+ INT 202206 MAE                              2536products/angle/energy/reaction                                            
+ INT 202206 MDA                              2536products/angle/reaction                                                   
+ INT 202206 MDE                              2536products/energy/reaction                                                  
+ INT 202206 MLT                              2536products/reaction                                                         
+ INT 199411 NO                             242536dimensionless                                                             
+ INT 199411 PC                               25  per-cent                                                                  
+ INT 200406 RE                               2536sqrt energy                                                               
+ INT 199411 RSL                              25  resolution                                                                
+ INT 199411 S                              24    effective mass-squared                                                    
+ INT 199411 TEM                            2425  temperature                                                               
+ INT 199411 THK                            2425  sample thickness                                                          
+ INT 199411 TIME                           2425  time                                                                      
+ INT 201912 TTT                              2536activity/charge                                                           
+ INT 201912 TTTE                             2536activity/charge/energy                                                    
+ INT 201912 TTY                              2536activity/current                                                          
+ INT 201912 YAE                              2536products/angle/energy/projectile                                          
+ INT 201912 YAEC                             2536products/angle/energy/charge                                              
+ INT 201912 YDA                              2536products/angle/projectile                                                 
+ INT 201912 YDAC                             2536products/angle/charge                                                     
+ INT 201912 YDE                              2536products/energy/projectile                                                
+ INT 201912 YLD                              2536products/projectile                                                       
+ INT 201912 YLDC                             2536products /charge                                                          

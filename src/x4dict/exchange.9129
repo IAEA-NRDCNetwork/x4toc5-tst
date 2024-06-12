@@ -1,0 +1,18 @@
+A  3TRA2023122JPNFMU                       FMU2JPNFukushima Medical University, Fukushima                                  
+M  3TRA2023123CLMCLM                       CLM3CLMColombia, Rep.                                       Columbia            
+M  3OBS2023124CCPGKS                       GKS4CCPState Committee on Standards, Moscow                                     
+M  3TRA2023124UZ UZB                       UZB4UZ Institute of Nuclear Physics, Tashkent                                   
+M  5TRA202312APP/BS                        APBS3POL    Acta Phys.Pol.B.Pro.Acta Physica Polonica, Part B Proceeding Suppl. 
+A  6TRA202312INDC(TUK)-                    3ZZZIAETurkish report to the I.N.D.C.                  *                        
+A 21TRA202312DIFUS                         Diffusion approximation                              NEUT                       
+A 24TRA202312ANG-APRX                      61G4000000A    Approximate angle, laboratory system                             
+M 24TRA202312ANG-RSL-FW                    61H9220000A    Angular resolution (full width)                                  
+M 24TRA202312ANG-RSL-HW                    61H9330000A    Angular resolution (half width)                                  
+A 24TRA202312ANG1-RSLHW                    61H9330000A    1st angular resolution (half width)                              
+A 24TRA202312ANG2-RSLHW                    61H9330000A    2nd angular resolution (half width)                              
+M 24TRA202312E-APRX                        51E4000000E    Approximate energy of outgoing particle, lab. system             
+A 24TRA202312E1-RSL-FW                     51F9220000E    1st outgoing particle energy resolution (full width)             
+M 24TRA202312EN-APRX                       41A4000000E    Approximate incident projectile energy                           
+M236TRA202312EXL,DA                        DA  DA   Angular diff. cross section including excitation to low-lying levels)  
+A236TRA202312L-,SIG                        CS  B    Cross section excluding quasi-metastable state production              
+A236TRA202312L-,SIG,,SFC                   CS+ B*E  S-factor excluding quasi-metastable state production                   
